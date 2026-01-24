@@ -7,17 +7,41 @@
             <field name="model">luan_chuyen_tai_san</field>
             <field name="arch" type="xml">
                 <form string="Luân chuyển tài sản">
+                    <header>
+                        <field name="trang_thai" widget="statusbar" statusbar_visible="chua_luan_chuyen,da_hoan_tat"/>
+                    </header>
                     <sheet>
                         <group col="2">
                             <group string="Thông tin chung">
-                                <field name="ma_phieu_luan_chuyen" />
+                                <field name="ma_phieu_luan_chuyen"/>
                                 <field name="thoi_gian_luan_chuyen" string="Thời gian luân chuyển"/>
                             </group>
-                            <group string="Thông tin chi tiết">
+                            <group string="Thông tin luân chuyển">
                                 <field name="bo_phan_nguon" string="Bộ phận hiện tại"/>
                                 <field name="bo_phan_dich" string="Bộ phận nhận"/>
-                                <field name="ghi_chu"/>
+                                <field name="nguoi_ban_giao" string="Người bàn giao"
+                                    options="{'no_create': True, 'no_open': True}"
+                                    domain="[('phong_ban_id', '!=', False)]"/>
+                                <field name="nguoi_nhan" string="Người nhận"
+                                    options="{'no_create': True, 'no_open': True}"
+                                    domain="[('phong_ban_id', '!=', False)]"/>
+                                <field name="la_ngoai_le_ban_giao" invisible="1"/>
+                                <field name="la_ngoai_le_nhan" invisible="1"/>
                             </group>
+                        </group>
+                        <group string="Lý do luân chuyển">
+                            <field name="ghi_chu" nolabel="1" placeholder="Nhập lý do luân chuyển tài sản..."/>
+                        </group>
+                        <group string="Văn bản liên quan">
+                            <field name="van_ban_dieu_chuyen_id"/>
+                        </group>
+                        <group string="⚠️ Lý do ngoại lệ (nếu có)" 
+                            attrs="{'invisible': [('la_ngoai_le_ban_giao', '=', False), ('la_ngoai_le_nhan', '=', False)]}">
+                            <div class="alert alert-warning" role="alert" style="margin-bottom: 10px;">
+                                <strong>Cảnh báo:</strong> Người bàn giao/nhận không thuộc bộ phận tương ứng. 
+                                Vui lòng giải thích lý do (VD: "IT bàn giao thay", "Trưởng phòng ủy quyền", v.v.)
+                            </div>
+                            <field name="ly_do_ngoai_le" nolabel="1" placeholder="VD: IT bàn giao thay vì Marketing vì có chuyên môn kỹ thuật..."/>
                         </group>
                         <notebook>
                             <page name="name" string="Tài sản luân chuyển">
@@ -27,8 +51,11 @@
                                         <field name="phan_bo_tai_san_id"
                                             domain="[('phong_ban_id', '=', parent.bo_phan_nguon), 
                                                     ('id', 'not in', parent.tai_san_da_chon_ids)]"
-                                            string="Tài sản"/>
-                                        <field name="ghi_chu" string="Ghi chú"/>
+                                            string="Chọn tài sản" width="250"/>
+                                        <field name="ma_tai_san" string="Mã tài sản" width="150"/>
+                                        <field name="ten_tai_san" string="Tên tài sản" width="200"/>
+                                        <field name="bo_phan_so_huu" string="Bộ phận sở hữu" width="150"/>
+                                        <field name="ghi_chu" string="Ghi chú" width="200"/>
                                     </tree>
                                 </field>
                             </page>
@@ -44,10 +71,13 @@
             <field name="model">luan_chuyen_tai_san</field>
             <field name="arch" type="xml">
                 <tree string="Danh sách luân chuyển tài sản">
-                    <field name="bo_phan_nguon"/>
-                    <field name="bo_phan_dich"/>
-                    <field name="thoi_gian_luan_chuyen"/>
-                    <field name="ghi_chu"/>
+                    <field name="ma_phieu_luan_chuyen" string="Mã phiếu"/>
+                    <field name="thoi_gian_luan_chuyen" string="Thời gian"/>
+                    <field name="bo_phan_nguon" string="Từ bộ phận"/>
+                    <field name="bo_phan_dich" string="Đến bộ phận"/>
+                    <field name="nguoi_ban_giao" string="Người giao"/>
+                    <field name="nguoi_nhan" string="Người nhận"/>
+                    <field name="trang_thai" string="Trạng thái"/>
                 </tree>
             </field>
         </record>

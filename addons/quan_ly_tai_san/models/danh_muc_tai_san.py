@@ -9,7 +9,13 @@ class DanhMucTaiSan(models.Model):
         ("ma_danh_muc_ts_unique", "unique(ma_danh_muc_ts)", "Mã loại tài sản đã tồn tại !"),
     ]
     
-    ma_danh_muc_ts = fields.Char('Mã loại tài sản', required=True)
+    ma_danh_muc_ts = fields.Char(
+        'Mã loại tài sản',
+        required=False,
+        readonly=True,
+        copy=False,
+        default='/',
+    )
     ten_danh_muc_ts = fields.Char('Tên loại tài sản', required=True)
     mo_ta_danh_muc_ts = fields.Char('Mô tả loại tài sản')
 
@@ -20,3 +26,9 @@ class DanhMucTaiSan(models.Model):
             record.so_luong_tong = len(record.tai_san_ids)
 
     tai_san_ids = fields.One2many('tai_san', 'danh_muc_ts_id', string='Tài sản')
+
+    @api.model
+    def create(self, vals):
+        if not vals.get('ma_danh_muc_ts') or vals.get('ma_danh_muc_ts') == '/':
+            vals['ma_danh_muc_ts'] = self.env['ir.sequence'].next_by_code('danh_muc_tai_san.sequence') or '/'
+        return super().create(vals)

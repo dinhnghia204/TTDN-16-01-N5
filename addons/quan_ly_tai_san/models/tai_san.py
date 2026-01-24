@@ -12,7 +12,13 @@ class TaiSan(models.Model):
     ]
 
 
-    ma_tai_san = fields.Char('Mã tài sản', required=True)
+    ma_tai_san = fields.Char(
+        'Mã tài sản',
+        required=False,
+        readonly=True,
+        copy=False,
+        default='/',
+    )
     ten_tai_san = fields.Char('Tên tài sản', required=True)
     ngay_mua_ts = fields.Date('Ngày mua tài sản', required=True)
     don_vi_tien_te = fields.Selection([
@@ -20,7 +26,7 @@ class TaiSan(models.Model):
         ('usd', '$'),
     ], string='Đơn vị tiền tệ', default='vnd', required=True)
     gia_tri_ban_dau = fields.Float('Giá trị ban đầu', default = 1, required=True)
-    gia_tri_hien_tai = fields.Float('Giá trị hiện tại', default = 1, required=True)
+    gia_tri_hien_tai = fields.Float('Giá trị hiện tại', default = 1, required=False, readonly=True)
     danh_muc_ts_id = fields.Many2one('danh_muc_tai_san', string='Loại tài sản', required=True, ondelete='restrict')
     giay_to_tai_san = fields.Binary('Giấy tờ liên quan', attachment=True)
     giay_to_tai_san_filename = fields.Char('Tên file')
@@ -32,6 +38,10 @@ class TaiSan(models.Model):
         ('none', 'Không')
     ], string='Phương pháp khấu hao', default = 'none', required=True)
     thoi_gian_su_dung = fields.Integer('Thời gian đã sử dụng (năm)', default=0)
+    
+    # Liên kết với văn bản
+    van_ban_mua_sam_id = fields.Many2one('van_ban_di', string='Văn bản đề xuất mua sắm',
+                                         help='Văn bản đề xuất/phê duyệt mua sắm tài sản này')
 
     # Khấu hao tuyến tính
     thoi_gian_toi_da = fields.Integer('Thời gian sử dụng còn lại tối đa (năm)', default=5)
@@ -95,50 +105,185 @@ class TaiSan(models.Model):
                 raise ValidationError("Giá trị (ban đầu, hiện tại) không thể âm !")
             elif record.gia_tri_hien_tai > record.gia_tri_ban_dau:
                 raise ValidationError("Giá trị hiện tại không thể lớn hơn giá trị ban đầu !")
+
+    @api.model
+    def create(self, vals):
+        if not vals.get('ma_tai_san') or vals.get('ma_tai_san') == '/':
+            vals['ma_tai_san'] = self.env['ir.sequence'].next_by_code('tai_san.sequence') or '/'
+        
+        # Tự động gán giá trị hiện tại = giá trị ban đầu khi tạo mới
+        if 'gia_tri_ban_dau' in vals and 'gia_tri_hien_tai' not in vals:
+            vals['gia_tri_hien_tai'] = vals['gia_tri_ban_dau']
+        
+        return super().create(vals)
     
     def action_tinh_khau_hao(self):
         for record in self:
-            if record.gia_tri_hien_tai <= 0:
-                raise ValidationError("Giá trị hiện tại phải lớn hơn 0 !")
             if record.pp_khau_hao == 'none':
                 raise ValidationError("Tài sản này không có phương pháp khấu hao!")
+            
+            # Kiểm tra thời gian sử dụng hợp lệ
+            if record.thoi_gian_su_dung < 0:
+                raise ValidationError("Thời gian đã sử dụng không thể âm!")
+            
+            if record.thoi_gian_su_dung > record.thoi_gian_toi_da:
+                raise ValidationError(
+                    f"Thời gian đã sử dụng ({record.thoi_gian_su_dung} năm) không thể lớn hơn "
+                    f"thời gian tối đa ({record.thoi_gian_toi_da} năm)!"
+                )
+            
+            # Lấy danh sách phiếu khấu hao tự động, sắp xếp theo ngày
+            phieu_khau_hao = self.env['lich_su_khau_hao'].search([
+                ('ma_ts', '=', record.id),
+                ('loai_phieu', '=', 'automatic')
+            ], order='ngay_khau_hao asc')
+            
+            # Kiểm tra nếu phương pháp đã thay đổi
+            # Nếu phiếu cũ không có phuong_phap_khau_hao (NULL) hoặc khác với phương pháp hiện tại
+            can_xoa_phieu_cu = False
+            if phieu_khau_hao:
+                phuong_phap_cu = phieu_khau_hao[0].phuong_phap_khau_hao
+                # Trường hợp 1: Phiếu cũ không có phương pháp (dữ liệu cũ)
+                # Trường hợp 2: Phương pháp đã thay đổi
+                if not phuong_phap_cu or phuong_phap_cu != record.pp_khau_hao:
+                    can_xoa_phieu_cu = True
+            
+            if can_xoa_phieu_cu:
+                # Hoàn lại giá trị đã khấu hao
+                tong_gia_tri_hoan_lai = sum(phieu_khau_hao.mapped('so_tien_khau_hao'))
+                record.gia_tri_hien_tai += tong_gia_tri_hoan_lai
+                
+                # Xóa toàn bộ phiếu cũ
+                so_phieu_xoa = len(phieu_khau_hao)
+                phuong_phap_cu_text = dict(record._fields['pp_khau_hao'].selection).get(phuong_phap_cu, 'không xác định')
+                phuong_phap_moi_text = dict(record._fields['pp_khau_hao'].selection).get(record.pp_khau_hao, '')
+                
+                phieu_khau_hao.unlink()
+                
+                self.env['bus.bus']._sendone(
+                    self.env.user.partner_id, 
+                    'simple_notification', 
+                    {
+                        'title': 'Đã chuyển phương pháp',
+                        'message': f'Đã xóa {so_phieu_xoa} phiếu "{phuong_phap_cu_text}" và hoàn lại {tong_gia_tri_hoan_lai:,.0f} VNĐ. Ấn lại để tính theo "{phuong_phap_moi_text}".',
+                        'sticky': False,
+                        'type': 'warning'
+                    }
+                )
+                return
+            
+            so_phieu_da_co = len(phieu_khau_hao)
+            so_nam_muc_tieu = record.thoi_gian_su_dung
+            
+            # TRƯỜNG HỢP 1: Cần xóa phiếu (giảm số năm)
+            if so_phieu_da_co > so_nam_muc_tieu:
+                so_phieu_can_xoa = so_phieu_da_co - so_nam_muc_tieu
+                phieu_can_xoa = phieu_khau_hao[-so_phieu_can_xoa:]  # Lấy n phiếu cuối
+                
+                # Hoàn lại giá trị đã khấu hao
+                tong_gia_tri_hoan_lai = sum(phieu_can_xoa.mapped('so_tien_khau_hao'))
+                record.gia_tri_hien_tai += tong_gia_tri_hoan_lai
+                
+                # Xóa phiếu
+                phieu_can_xoa.unlink()
+                
+                self.env['bus.bus']._sendone(
+                    self.env.user.partner_id, 
+                    'simple_notification', 
+                    {
+                        'title': 'Đã hoàn tác',
+                        'message': f'Đã xóa {so_phieu_can_xoa} phiếu khấu hao và hoàn lại {tong_gia_tri_hoan_lai:,.0f} VNĐ',
+                        'sticky': False,
+                        'type': 'info'
+                    }
+                )
+                return
+            
+            # TRƯỜNG HỢP 2: Đã đủ phiếu
+            if so_phieu_da_co == so_nam_muc_tieu:
+                raise ValidationError(
+                    f"Đã có đủ {so_phieu_da_co} phiếu khấu hao cho {so_nam_muc_tieu} năm!"
+                )
+            
+            # TRƯỜNG HỢP 3: Cần tạo thêm phiếu
+            if record.gia_tri_hien_tai <= 0:
+                raise ValidationError("Tài sản đã hết giá trị, không thể khấu hao thêm!")
+            
+            so_nam_can_khau_hao = so_nam_muc_tieu - so_phieu_da_co
 
-            so_tien_khau_hao = 0
+            # Lặp qua từng năm cần khấu hao
+            for nam in range(so_nam_can_khau_hao):
+                if record.gia_tri_hien_tai <= 0:
+                    raise ValidationError(
+                        f"Tài sản đã hết giá trị sau {nam} năm khấu hao! "
+                        f"Không thể tiếp tục khấu hao {so_nam_can_khau_hao - nam} năm còn lại."
+                    )
+                
+                so_tien_khau_hao = 0
+                nam_hien_tai = so_phieu_da_co + nam + 1  # Năm thứ mấy đang khấu hao
 
-            if record.pp_khau_hao == 'straight-line':  
-                if record.thoi_gian_toi_da <= 0:
-                    raise ValidationError("Thời gian sử dụng tối đa phải lớn hơn 0 (năm) !")
-                so_tien_khau_hao = record.gia_tri_ban_dau / record.thoi_gian_toi_da  
+                if record.pp_khau_hao == 'straight-line':  
+                    if record.thoi_gian_toi_da <= 0:
+                        raise ValidationError("Thời gian sử dụng tối đa phải lớn hơn 0 (năm) !")
+                    so_tien_khau_hao = record.gia_tri_ban_dau / record.thoi_gian_toi_da  
 
-            elif record.pp_khau_hao == 'degressive':  
-                if record.ty_le_khau_hao <= 0 or record.ty_le_khau_hao >= 100:
-                    raise ValidationError("Tỷ lệ khấu hao phải nằm trong khoảng (0,100) !")
-                so_tien_khau_hao = record.gia_tri_hien_tai * (record.ty_le_khau_hao / 100) 
+                elif record.pp_khau_hao == 'degressive':  
+                    if record.thoi_gian_toi_da <= 0:
+                        raise ValidationError("Thời gian sử dụng tối đa phải lớn hơn 0 (năm) !")
+                    
+                    # 1. Tỷ lệ khấu hao đường thẳng
+                    r_dt = 1.0 / record.thoi_gian_toi_da
+                    
+                    # 2. Hệ số điều chỉnh (H) theo Thông tư 45/2013/TT-BTC
+                    if record.thoi_gian_toi_da <= 4:
+                        he_so_h = 1.5
+                    elif record.thoi_gian_toi_da <= 6:
+                        he_so_h = 2.0
+                    else:
+                        he_so_h = 2.5
+                    
+                    # 3. Tỷ lệ khấu hao giảm dần
+                    r_gd = r_dt * he_so_h
+                    
+                    # 4. Số năm còn lại
+                    so_nam_con_lai = record.thoi_gian_toi_da - nam_hien_tai + 1
+                    
+                    # 5. Khấu hao giảm dần
+                    khau_hao_giam_dan = record.gia_tri_hien_tai * r_gd
+                    
+                    # 6. Khấu hao đường thẳng (cho số năm còn lại)
+                    khau_hao_duong_thang = record.gia_tri_hien_tai / so_nam_con_lai if so_nam_con_lai > 0 else 0
+                    
+                    # 7. Điều kiện chuyển sang đường thẳng
+                    if khau_hao_giam_dan < khau_hao_duong_thang:
+                        # Chuyển sang khấu hao đường thẳng
+                        so_tien_khau_hao = khau_hao_duong_thang
+                    else:
+                        # Tiếp tục khấu hao giảm dần
+                        so_tien_khau_hao = khau_hao_giam_dan
 
-            so_tien_khau_hao = min(so_tien_khau_hao, record.gia_tri_hien_tai)  
-            ma_phieu_khau_hao = 'KH-' + record.ma_tai_san + '-' + datetime.now().strftime('%Y%m%d%H%M%S%f')
+                so_tien_khau_hao = min(so_tien_khau_hao, record.gia_tri_hien_tai)  
+                ma_phieu_khau_hao = 'KH-' + record.ma_tai_san + '-' + datetime.now().strftime('%Y%m%d%H%M%S%f')
 
-
-            self.env['lich_su_khau_hao'].create({
-                'ma_phieu_khau_hao': ma_phieu_khau_hao,
-                'ma_ts': record.id,
-                'ngay_khau_hao': fields.Datetime.now(),
-                'so_tien_khau_hao': so_tien_khau_hao,
-                'gia_tri_con_lai': record.gia_tri_hien_tai,
-                'loai_phieu': 'automatic',
-                'ghi_chu': f'Khấu hao tự động {fields.Date.today().strftime("%Y/%m")}'
-            })
-
-            record.thoi_gian_su_dung += 1
-
+                # Tạo phiếu khấu hao - hàm create() sẽ tự động trừ tiền và tính gia_tri_con_lai
+                self.env['lich_su_khau_hao'].create({
+                    'ma_phieu_khau_hao': ma_phieu_khau_hao,
+                    'ma_ts': record.id,
+                    'ngay_khau_hao': fields.Datetime.now(),
+                    'so_tien_khau_hao': so_tien_khau_hao,
+                    'loai_phieu': 'automatic',
+                    'phuong_phap_khau_hao': record.pp_khau_hao,
+                    'ghi_chu': f'Khấu hao năm {so_phieu_da_co + nam + 1} - {fields.Date.today().strftime("%Y/%m")}'
+                })
+            
             self.env['bus.bus']._sendone(
                 self.env.user.partner_id, 
                 'simple_notification', 
                 {
                     'title': 'Thành công',
-                    'message': f'Khấu hao tài sản "{record.ten_tai_san}" thành công!',
-                    'sticky': False,  
-                    'type': 'success'  
+                    'message': f'Đã tạo {so_nam_can_khau_hao} phiếu khấu hao cho tài sản "{record.ten_tai_san}"',
+                    'sticky': False,
+                    'type': 'success'
                 }
             )
 

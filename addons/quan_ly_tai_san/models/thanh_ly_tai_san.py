@@ -9,7 +9,7 @@ class ThanhLyTaiSan(models.Model):
         ("ma_thanh_ly_unique", "unique(ma_thanh_ly)", "Mã thanh lý đã tồn tại"),
     ]
 
-    ma_thanh_ly = fields.Char('Mã thanh lý', required=True, default='TL-')
+    ma_thanh_ly = fields.Char('Mã thanh lý', required=True, readonly=True, copy=False, default='/')
     hanh_dong = fields.Selection([
         ('ban', 'Bán'),
         ('huy', 'Tiêu hủy')
@@ -20,6 +20,10 @@ class ThanhLyTaiSan(models.Model):
     ly_do_thanh_ly = fields.Char('Lý do thanh lý', default='')
     gia_ban = fields.Float('Giá bán', required=True)
     gia_goc = fields.Float('Giá gốc', compute='_compute_gia_goc', store=True)
+    
+    # Liên kết với văn bản
+    van_ban_quyet_dinh_id = fields.Many2one('van_ban_di', string='Văn bản quyết định thanh lý', 
+                                            help='Quyết định phê duyệt thanh lý tài sản')
                                          
     @api.constrains('gia_ban')
     def _constrains_gia_ban(self):
@@ -42,3 +46,9 @@ class ThanhLyTaiSan(models.Model):
             ])
             if existing_thanh_ly:
                 raise ValidationError(_(f"Tài sản '{record.tai_san_id.ten_tai_san}' đã được thanh lý trước đó!"))
+    
+    @api.model
+    def create(self, vals):
+        if not vals.get('ma_thanh_ly') or vals.get('ma_thanh_ly') == '/':
+            vals['ma_thanh_ly'] = self.env['ir.sequence'].next_by_code('thanh_ly_tai_san.sequence') or '/'
+        return super().create(vals)

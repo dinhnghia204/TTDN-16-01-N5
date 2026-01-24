@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Extend Nhân viên Form view với thông tin văn bản -->
+    <record id="view_nhan_vien_form_van_ban_extend" model="ir.ui.view">
+        <field name="name">nhan_vien.form.van_ban.extend</field>
+        <field name="model">nhan_vien</field>
+        <field name="inherit_id" ref="nhan_su.view_nhan_vien_form"/>
+        <field name="arch" type="xml">
+            <!-- Thêm button box sau sheet -->
+            <xpath expr="//sheet" position="inside">
+                <div class="oe_button_box" name="button_box">
+                    <button name="%(quan_ly_van_ban.action_van_ban_den)d" 
+                            type="action"
+                            class="oe_stat_button" 
+                            icon="fa-envelope-open-o"
+                            context="{'default_nguoi_nhan_id': active_id, 'search_default_nguoi_nhan_id': active_id}">
+                        <field name="so_luong_van_ban_den" widget="statinfo" string="VB Đến"/>
+                    </button>
+                    <button name="%(quan_ly_van_ban.action_van_ban_di)d" 
+                            type="action"
+                            class="oe_stat_button" 
+                            icon="fa-paper-plane-o"
+                            context="{'default_nguoi_soan_thao_id': active_id, 'search_default_nguoi_soan_thao_id': active_id}">
+                        <field name="so_luong_van_ban_di" widget="statinfo" string="VB Đi"/>
+                    </button>
+                </div>
+            </xpath>
+
+            <!-- Thêm notebook pages cho văn bản -->
+            <xpath expr="//notebook" position="inside">
+                <!-- Văn bản đến -->
+                <page string="Văn bản đến" name="van_ban_den">
+                    <field name="van_ban_den_nhan_ids">
+                        <tree>
+                            <field name="so_ky_hieu"/>
+                            <field name="ten_van_ban"/>
+                            <field name="loai_van_ban_id"/>
+                            <field name="co_quan_ban_hanh"/>
+                            <field name="ngay_den"/>
+                            <field name="do_khan"/>
+                            <field name="trang_thai"/>
+                        </tree>
+                    </field>
+                </page>
+
+                <!-- Văn bản đi đã soạn thảo -->
+                <page string="VB đi đã soạn" name="van_ban_di_soan_thao">
+                    <field name="van_ban_di_soan_thao_ids">
+                        <tree>
+                            <field name="so_ky_hieu"/>
+                            <field name="ten_van_ban"/>
+                            <field name="loai_van_ban_id"/>
+                            <field name="ngay_soan_thao"/>
+                            <field name="nguoi_ky_id"/>
+                            <field name="trang_thai"/>
+                        </tree>
+                    </field>
+                </page>
+
+                <!-- Văn bản đi đã ký duyệt -->
+                <page string="VB đi đã ký" name="van_ban_di_ky">
+                    <field name="van_ban_di_ky_ids">
+                        <tree>
+                            <field name="so_ky_hieu"/>
+                            <field name="ten_van_ban"/>
+                            <field name="loai_van_ban_id"/>
+                            <field name="nguoi_soan_thao_id"/>
+                            <field name="ngay_soan_thao"/>
+                            <field name="trang_thai"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Extend Nhân viên Tree view với số lượng văn bản -->
+    <record id="view_nhan_vien_tree_van_ban_extend" model="ir.ui.view">
+        <field name="name">nhan_vien.tree.van_ban.extend</field>
+        <field name="model">nhan_vien</field>
+        <field name="inherit_id" ref="nhan_su.view_nhan_vien_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='chuc_vu_id']" position="after">
+                <field name="so_luong_van_ban_den" string="VB Đến"/>
+                <field name="so_luong_van_ban_di" string="VB Đi"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

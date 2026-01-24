@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        <!-- Root menu -->
         <menuitem
             id="menu_root"
             name="Quản lý văn bản"
-            sequence="0"/>
-          
-        <menuitem name="Quản lý văn bản đi" 
-            id="menu_van_ban_di" 
+            web_icon="quan_ly_van_ban,static/description/icon.png"
+            sequence="10"/>
+        
+        <!-- Submenu cho văn bản đến -->
+        <menuitem 
+            id="menu_van_ban_den" 
+            name="Văn bản đến" 
             parent="menu_root" 
-            sequence="1"
-            action="action_van_ban_di"
-        />
+            sequence="10"
+            action="action_van_ban_den"/>
+        
+        <!-- Submenu cho văn bản đi -->
+        <menuitem 
+            id="menu_van_ban_di" 
+            name="Văn bản đi" 
+            parent="menu_root" 
+            sequence="20"
+            action="action_van_ban_di"/>
+        
+        <!-- Submenu cấu hình -->
+        <menuitem 
+            id="menu_cau_hinh" 
+            name="Cấu hình" 
+            parent="menu_root" 
+            sequence="100"/>
+        
+        <menuitem 
+            id="menu_loai_van_ban" 
+            name="Loại văn bản" 
+            parent="menu_cau_hinh" 
+            sequence="10"
+            action="action_loai_van_ban"/>
     </data>
 </odoo>

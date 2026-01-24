@@ -16,16 +16,23 @@
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Human Resources',
+    'category': 'Productivity',
     'version': '0.1',
+    'license': 'LGPL-3',
+    'application': True,
+    'installable': True,
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'nhan_su'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'data/sequences.xml',
+        'views/nhan_vien_extend.xml',
+        'views/loai_van_ban.xml',
         'views/van_ban_di.xml',
+        'views/van_ban_den.xml',
         'views/menu.xml',
     ],
     # only loaded in demonstration mode

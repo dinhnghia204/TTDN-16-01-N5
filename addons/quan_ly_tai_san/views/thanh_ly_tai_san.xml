@@ -13,6 +13,7 @@
                             <field name="thoi_gian_thanh_ly"/>
                             <field name="nguoi_thanh_ly_id"/>
                             <field name="ly_do_thanh_ly"/>
+                            <field name="van_ban_quyet_dinh_id"/>
                         </group>
                         <group string="Thông tin chi tiết">
                             <field name="tai_san_id"
