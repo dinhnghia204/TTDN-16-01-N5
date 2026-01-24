@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   postgres-odoo-base-15-04:
-    container_name: postgres_odoo-base-15-04
+    container_name: postgres_odoo-base-16-01
     image: postgres:10-alpine
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-postgres}
