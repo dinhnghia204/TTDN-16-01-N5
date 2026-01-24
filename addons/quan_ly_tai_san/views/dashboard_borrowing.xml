@@ -91,6 +91,7 @@
             <field name="res_model">asset.dashboard</field>
             <field name="view_mode">form</field>
             <field name="view_id" ref="dashboard_borrowing_view"/>
+            <field name="search_view_id" ref="asset_dashboard_search"/>
             <field name="target">main</field>
         </record>
     </data>

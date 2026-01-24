@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Mở rộng form nhân viên để thêm các tab quản lý tài sản -->
+        <record id="view_nhan_vien_form_asset_extend" model="ir.ui.view">
+            <field name="name">nhan_vien.form.asset.extend</field>
+            <field name="model">nhan_vien</field>
+            <field name="inherit_id" ref="nhan_su.view_nhan_vien_form"/>
+            <field name="arch" type="xml">
+                <!-- Thêm số lượng tài sản vào group thông tin -->
+                <field name="tuoi" position="after">
+                    <field name="so_luong_tai_san" readonly="1"/>
+                </field>
+                
+                <!-- Thêm các tab tài sản vào notebook -->
+                <xpath expr="//notebook" position="inside">
+                    <page string="Tài sản đang sử dụng">
+                        <field name="tai_san_dang_su_dung_ids">
+                            <tree>
+                                <field name="tai_san_id"/>
+                                <field name="phong_ban_su_dung_id"/>
+                                <field name="ngay_phat"/>
+                                <field name="trang_thai"/>
+                            </tree>
+                        </field>
+                    </page>
+                    
+                    <page string="Lịch sử mượn tài sản">
+                        <field name="don_muon_tai_san_ids">
+                            <tree>
+                                <field name="ma_don_muon"/>
+                                <field name="ten_don_muon"/>
+                                <field name="thoi_gian_muon"/>
+                                <field name="thoi_gian_tra"/>
+                            </tree>
+                        </field>
+                    </page>
+                    
+                    <page string="Phiếu kiểm kê">
+                        <field name="kiem_ke_da_thuc_hien_ids">
+                            <tree>
+                                <field name="ma_phieu_kiem_ke"/>
+                                <field name="ten_phieu_kiem_ke"/>
+                                <field name="phong_ban_id"/>
+                                <field name="thoi_gian_tao"/>
+                                <field name="trang_thai_phieu"/>
+                            </tree>
+                        </field>
+                    </page>
+                    
+                    <page string="Luân chuyển bàn giao">
+                        <field name="luan_chuyen_ban_giao_ids">
+                            <tree>
+                                <field name="ma_phieu_luan_chuyen"/>
+                                <field name="bo_phan_dich"/>
+                                <field name="nguoi_nhan"/>
+                                <field name="thoi_gian_luan_chuyen"/>
+                                <field name="trang_thai"/>
+                            </tree>
+                        </field>
+                    </page>
+                    
+                    <page string="Luân chuyển nhận">
+                        <field name="luan_chuyen_nhan_ids">
+                            <tree>
+                                <field name="ma_phieu_luan_chuyen"/>
+                                <field name="bo_phan_nguon"/>
+                                <field name="nguoi_ban_giao"/>
+                                <field name="thoi_gian_luan_chuyen"/>
+                                <field name="trang_thai"/>
+                            </tree>
+                        </field>
+                    </page>
+                    
+                    <page string="Lịch sử thanh lý">
+                        <field name="thanh_ly_da_thuc_hien_ids">
+                            <tree>
+                                <field name="ma_thanh_ly"/>
+                                <field name="tai_san_id"/>
+                                <field name="thoi_gian_thanh_ly"/>
+                                <field name="ly_do_thanh_ly"/>
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+        
+        <!-- Mở rộng tree view nhân viên để hiển thị số lượng tài sản -->
+        <record id="view_nhan_vien_tree_asset_extend" model="ir.ui.view">
+            <field name="name">nhan_vien.tree.asset.extend</field>
+            <field name="model">nhan_vien</field>
+            <field name="inherit_id" ref="nhan_su.view_nhan_vien_tree"/>
+            <field name="arch" type="xml">
+                <field name="chuc_vu_id" position="after">
+                    <field name="so_luong_tai_san"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

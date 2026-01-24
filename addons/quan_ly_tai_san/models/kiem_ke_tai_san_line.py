@@ -6,6 +6,7 @@ class KiemKeTaiSanLine(models.Model):
 
     kiem_ke_tai_san_id = fields.Many2one('kiem_ke_tai_san', string='Phiếu kiểm kê', required=True, ondelete='cascade')
     phan_bo_tai_san_id = fields.Many2one('phan_bo_tai_san', string='Tài sản', required=True, ondelete='cascade')
+    phong_ban_id = fields.Many2one('phong_ban', string='Bộ phận sở hữu', related='phan_bo_tai_san_id.phong_ban_id', store=True, readonly=True)
     so_luong_thuc_te = fields.Integer('SL thực tế', required=True)
     so_luong_ly_thuyet = fields.Integer('SL sổ sách', default = 1, readonly=True)
     dvt = fields.Char('Đơn vị tính', related='phan_bo_tai_san_id.tai_san_id.don_vi_tinh', store=True)

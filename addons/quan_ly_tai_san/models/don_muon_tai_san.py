@@ -9,7 +9,13 @@ class DonMuonTaiSan(models.Model):
         ("ma_don_muon_unique", "unique(ma_don_muon)", "Mã đơn mượn đã tồn tại"),
     ]
 
-    ma_don_muon = fields.Char("Mã đơn mượn", required=True, default='M')
+    ma_don_muon = fields.Char(
+        "Mã đơn mượn",
+        required=False,
+        readonly=True,
+        copy=False,
+        default='/',
+    )
     ten_don_muon = fields.Char('Đơn mượn tài sản', required=True)
     phong_ban_cho_muon_id = fields.Many2one('phong_ban', string='Phòng ban cho mượn', required=True, ondelete='restrict')
     thoi_gian_muon = fields.Datetime('Thời gian mượn', required=True, default=lambda self: fields.Datetime.now())
@@ -56,4 +62,10 @@ class DonMuonTaiSan(models.Model):
         for record in self:
             if record.thoi_gian_tra < fields.Datetime.now():
                 raise ValidationError("Thời gian trả không được nhỏ hơn thời gian hiện tại !")
+
+    @api.model
+    def create(self, vals):
+        if not vals.get('ma_don_muon') or vals.get('ma_don_muon') == '/':
+            vals['ma_don_muon'] = self.env['ir.sequence'].next_by_code('don_muon_tai_san.sequence') or '/'
+        return super().create(vals)
     

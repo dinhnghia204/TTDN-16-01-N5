@@ -116,12 +116,22 @@
             </field>
         </record>
 
+        <!-- Search view tối thiểu để tránh lỗi CacheMiss trên actions asset.dashboard -->
+        <record id="asset_dashboard_search" model="ir.ui.view">
+            <field name="name">asset.dashboard.search</field>
+            <field name="model">asset.dashboard</field>
+            <field name="arch" type="xml">
+                <search/>
+            </field>
+        </record>
+
 
         <record id="dashboard_tong_quan_action" model="ir.actions.act_window">
             <field name="name">Dashboard Tổng Quan</field>
             <field name="res_model">asset.dashboard</field>
             <field name="view_mode">form</field>
             <field name="view_id" ref="dashboard_overview_view"/>
+            <field name="search_view_id" ref="asset_dashboard_search"/>
             <!-- <field name="target">main</field> -->
         </record>
     </data>

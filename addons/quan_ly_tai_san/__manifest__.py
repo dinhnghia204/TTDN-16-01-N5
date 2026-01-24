@@ -18,13 +18,18 @@
     # for the full list
     'category': 'Human Resources',
     'version': '0.1',
+    'license': 'LGPL-3',
+    'application': True,
+    'installable': True,
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'web'],
+    'depends': ['base', 'web', 'nhan_su', 'bus', 'quan_ly_van_ban'],
 
     # always loaded
     'data': [
+        'data/sequences.xml',
         'security/ir.model.access.csv',
+        'views/nhan_vien_extend.xml',
         'views/danh_muc_tai_san.xml',
         'views/kiem_ke_tai_san.xml',
         'views/lich_su_khau_hao.xml',
@@ -44,9 +49,12 @@
     ],
     
     'assets': {
+        # Đưa moment kèm locale vào assets_common để load trước datetimepicker
+        'web.assets_common': [
+            'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js',
+        ],
         'web.assets_backend': [
             'https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js',
-            'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js',
             'quan_ly_tai_san/static/src/css/dashboard.css',
             'quan_ly_tai_san/static/src/js/dashboard_overview.js',
             'quan_ly_tai_san/static/src/js/dashboard_borrowing.js',

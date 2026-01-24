@@ -10,7 +10,13 @@ class KiemKeTaiSan(models.Model):
     ]
 
     rec_name = fields.Char(compute='_compute_rec_name', store=True)
-    ma_phieu_kiem_ke = fields.Char('Mã phiếu', default="KKTS-", required=True)
+    ma_phieu_kiem_ke = fields.Char(
+        'Mã phiếu',
+        required=False,
+        readonly=True,
+        copy=False,
+        default='/',
+    )
     ten_phieu_kiem_ke = fields.Char('Tên phiếu', required=True)
     phong_ban_id = fields.Many2one('phong_ban', string='Bộ phận cần kiểm kê', required=True, ondelete='cascade')
     nhan_vien_kiem_ke_id = fields.Many2one('nhan_vien', string='Nhân viên kiểm kê', ondelete='set null')
@@ -20,17 +26,6 @@ class KiemKeTaiSan(models.Model):
     thoi_gian_tao = fields.Datetime('Thời gian tạo phiếu', default=fields.Datetime.now)
     ghi_chu = fields.Char('Ghi chú', default='')
     trang_thai_phieu = fields.Char(compute='_compute_trang_thai_phieu', string='Trạng thái phiếu', store=True)
-    ds_tai_san_chua_kiem_ke = fields.Many2many('phan_bo_tai_san', compute='_compute_ds_tai_san_chua_kiem_ke', string="Tài sản chưa kiểm kê")
-
-    @api.depends('phong_ban_id', 'ds_kiem_ke_ids')
-    def _compute_ds_tai_san_chua_kiem_ke(self):
-        for record in self:
-            da_kiem_ke_ids = record.ds_kiem_ke_ids.mapped('phan_bo_tai_san_id').ids
-            ds_tai_san = self.env['phan_bo_tai_san'].search([
-                ('phong_ban_id', '=', record.phong_ban_id.id),
-                ('id', 'not in', da_kiem_ke_ids)
-            ])
-            record.ds_tai_san_chua_kiem_ke = ds_tai_san
 
     @api.depends('ma_phieu_kiem_ke', 'ten_phieu_kiem_ke')
     def _compute_rec_name(self):
@@ -45,8 +40,11 @@ class KiemKeTaiSan(models.Model):
             else:
                 rec.trang_thai_phieu = 'Chưa kiểm kê'
 
-    @api.onchange('phong_ban_id')
-    def _onchange_phong_ban_id(self):
-        if self.phong_ban_id:
-            self.ds_kiem_ke_ids = [(5, 0, 0)] 
+ 
+
+    @api.model
+    def create(self, vals):
+        if not vals.get('ma_phieu_kiem_ke') or vals.get('ma_phieu_kiem_ke') == '/':
+            vals['ma_phieu_kiem_ke'] = self.env['ir.sequence'].next_by_code('kiem_ke_tai_san.sequence') or '/'
+        return super().create(vals)
     

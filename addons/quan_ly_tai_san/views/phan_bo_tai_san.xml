@@ -9,14 +9,21 @@
                 <form string="Phân Bổ Tài Sản">
                     <sheet>
                         <group col="2">
-                            <group string="Thông tin phân bổ">
-                                <field name="phong_ban_id" string="Phòng ban"/>
+                            <group string="Thông tin phân bổ (kế toán)">
+                                <field name="phong_ban_id" string="Phòng ban phân bổ"/>
                                 <field name="tai_san_id" string="Tài sản"
                                         domain="['|', ('trang_thai_thanh_ly', '=', 'chua_phan_bo'), ('trang_thai_thanh_ly', '=', 'chua_thanh_ly')]"/>
                                 <field name="ngay_phat" string="Ngày phân bổ"/>
-                                <field name="nhan_vien_su_dung_id" string="Nhân viên sử dụng"/>
                             </group>
-                            <group string="Trạng thái / Vị trí">
+                            <group string="Thông tin sử dụng (nghiệp vụ)">
+                                <field name="phong_ban_su_dung_id" string="Phòng ban sử dụng"/>
+                                <field name="nhan_vien_su_dung_id" string="Nhân viên sử dụng"/>
+                                <field name="thoi_gian_su_dung_tu" string="Thời gian sử dụng từ"/>
+                                <field name="thoi_gian_su_dung_den" string="Thời gian sử dụng đến"/>
+                            </group>
+                        </group>
+                        <group col="2">
+                            <group string="Trạng thái / Vị trí (vật lý)">
                                 <field name="trang_thai"/>
                                 <field name="vi_tri_tai_san_id" string="Vị trí tài sản"/>
                                 <field name="ghi_chu"/>
@@ -33,11 +40,15 @@
             <field name="model">phan_bo_tai_san</field>
             <field name="arch" type="xml">
                 <tree string="Danh sách phân bổ tài sản">
-                    <field name="phong_ban_id"/>
                     <field name="tai_san_id"/>
+                    <field name="phong_ban_id" string="PB phân bổ"/>
+                    <field name="phong_ban_su_dung_id" string="PB sử dụng"/>
+                    <field name="nhan_vien_su_dung_id" string="NV sử dụng"/>
                     <field name="ngay_phat"/>
+                    <field name="thoi_gian_su_dung_tu" string="Từ ngày"/>
+                    <field name="thoi_gian_su_dung_den" string="Đến ngày"/>
                     <field name="trang_thai"/>
-                    <field name="vi_tri_tai_san_id"/>
+                    <field name="vi_tri_tai_san_id" string="Vị trí"/>
                 </tree>
             </field>
         </record>
@@ -49,7 +60,9 @@
             <field name="arch" type="xml">
                 <search string="Tìm kiếm phân bổ tài sản">
                     <field name="phong_ban_id"/>
+                    <field name="phong_ban_su_dung_id"/>
                     <field name="tai_san_id"/>
+                    <field name="nhan_vien_su_dung_id"/>
                     <field name="ngay_phat"/>
                     <field name="trang_thai"/>
                     <field name="vi_tri_tai_san_id"/>
