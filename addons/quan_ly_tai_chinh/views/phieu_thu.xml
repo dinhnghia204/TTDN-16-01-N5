@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_phieu_thu_tree" model="ir.ui.view">
+            <field name="name">phieu.thu.tree</field>
+            <field name="model">phieu_thu</field>
+            <field name="arch" type="xml">
+                <tree string="Phiếu thu" decoration-success="trang_thai=='da_thu'" decoration-muted="trang_thai=='nhap'">
+                    <field name="ma_phieu_thu"/>
+                    <field name="ngay_thu"/>
+                    <field name="nguoi_nop"/>
+                    <field name="noi_dung"/>
+                    <field name="so_tien" sum="Tổng thu"/>
+                    <field name="loai_thu"/>
+                    <field name="trang_thai"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_phieu_thu_form" model="ir.ui.view">
+            <field name="name">phieu.thu.form</field>
+            <field name="model">phieu_thu</field>
+            <field name="arch" type="xml">
+                <form string="Phiếu thu">
+                    <header>
+                        <button name="action_xac_nhan_thu" string="Xác nhận thu" 
+                                type="object" attrs="{'invisible': [('trang_thai', '!=', 'nhap')]}" 
+                                class="oe_highlight"/>
+                        <field name="trang_thai" widget="statusbar"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="ma_phieu_thu" readonly="1"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="ngay_thu"/>
+                                <field name="nguoi_nop"/>
+                                <field name="dia_chi"/>
+                                <field name="loai_thu"/>
+                            </group>
+                            <group>
+                                <field name="noi_dung"/>
+                                <field name="nguoi_lap_id"/>
+                                <field name="nguoi_duyet_id" attrs="{'invisible': [('trang_thai', '=', 'nhap')]}"/>
+                            </group>
+                        </group>
+                        
+                        <group string="Thông tin kế toán">
+                            <group>
+                                <field name="tk_no_id" domain="[('ma_tai_khoan', 'in', ['111', '112'])]"/>
+                                <field name="tk_co_id"/>
+                            </group>
+                            <group>
+                                <field name="so_tien"/>
+                                <field name="so_tien_chu" readonly="1"/>
+                            </group>
+                        </group>
+                        
+                        <group string="Diễn giải">
+                            <field name="dien_giai" nolabel="1"/>
+                        </group>
+                        
+                        <group string="Liên kết" attrs="{'invisible': [('but_toan_id', '=', False)]}">
+                            <field name="but_toan_id" readonly="1"/>
+                            <field name="hoa_don_ban_id" readonly="1"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_phieu_thu" model="ir.actions.act_window">
+            <field name="name">Phiếu thu</field>
+            <field name="res_model">phieu_thu</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Tạo phiếu thu tiền mới
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -50,8 +50,8 @@ class VanBanDen(models.Model):
     file_name = fields.Char('Tên file')
     
     # Computed fields
-    qua_han = fields.Boolean('Quá hạn', compute='_compute_qua_han', store=True)
-    so_ngay_con_lai = fields.Integer('Số ngày còn lại', compute='_compute_qua_han')
+    qua_han = fields.Boolean('Quá hạn', compute='_compute_qua_han', compute_sudo=True, store=True)
+    so_ngay_con_lai = fields.Integer('Số ngày còn lại', compute='_compute_qua_han', compute_sudo=True)
     
     @api.depends('han_xu_ly', 'trang_thai')
     def _compute_qua_han(self):

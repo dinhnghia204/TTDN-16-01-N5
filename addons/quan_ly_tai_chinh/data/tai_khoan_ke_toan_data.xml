@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- TÀI SẢN (Class 1, 2) -->
+        
+        <!-- TK 111: Tiền mặt -->
+        <record id="tk_111" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">111</field>
+            <field name="ten_tai_khoan">Tiền mặt</field>
+            <field name="ten_tieng_anh">Cash</field>
+            <field name="loai_tai_khoan">tai_san</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Tiền mặt tại quỹ</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 112: Tiền gửi ngân hàng -->
+        <record id="tk_112" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">112</field>
+            <field name="ten_tai_khoan">Tiền gửi ngân hàng</field>
+            <field name="ten_tieng_anh">Cash in bank</field>
+            <field name="loai_tai_khoan">tai_san</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Tiền gửi tại các ngân hàng</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 211: Tài sản cố định hữu hình -->
+        <record id="tk_211" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">211</field>
+            <field name="ten_tai_khoan">Tài sản cố định hữu hình</field>
+            <field name="ten_tieng_anh">Tangible fixed assets</field>
+            <field name="loai_tai_khoan">tai_san</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Nguyên giá TSCĐ hữu hình</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 214: Hao mòn TSCĐ -->
+        <record id="tk_214" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">214</field>
+            <field name="ten_tai_khoan">Hao mòn tài sản cố định</field>
+            <field name="ten_tieng_anh">Accumulated depreciation</field>
+            <field name="loai_tai_khoan">tai_san</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">co</field>
+            <field name="mo_ta">Khấu hao lũy kế TSCĐ</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- NGUỒN VỐN (Class 3) -->
+        
+        <!-- TK 334: Phải trả người lao động -->
+        <record id="tk_334" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">334</field>
+            <field name="ten_tai_khoan">Phải trả người lao động</field>
+            <field name="ten_tieng_anh">Payables to employees</field>
+            <field name="loai_tai_khoan">nguon_von</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">co</field>
+            <field name="mo_ta">Tiền lương phải trả cho NLĐ</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 411: Nguồn vốn kinh doanh -->
+        <record id="tk_411" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">411</field>
+            <field name="ten_tai_khoan">Nguồn vốn kinh doanh</field>
+            <field name="ten_tieng_anh">Capital</field>
+            <field name="loai_tai_khoan">nguon_von</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">co</field>
+            <field name="mo_ta">Vốn chủ sở hữu</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- CHI PHÍ (Class 6) -->
+        
+        <!-- TK 622: Chi phí nhân công trực tiếp -->
+        <record id="tk_622" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">622</field>
+            <field name="ten_tai_khoan">Chi phí nhân công</field>
+            <field name="ten_tieng_anh">Labor cost</field>
+            <field name="loai_tai_khoan">chi_phi</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Chi phí tiền lương, BHXH, BHYT</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 627: Chi phí khấu hao TSCĐ -->
+        <record id="tk_627" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">627</field>
+            <field name="ten_tai_khoan">Chi phí khấu hao TSCĐ</field>
+            <field name="ten_tieng_anh">Depreciation expense</field>
+            <field name="loai_tai_khoan">chi_phi</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Khấu hao TSCĐ trong kỳ</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 642: Chi phí quản lý doanh nghiệp -->
+        <record id="tk_642" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">642</field>
+            <field name="ten_tai_khoan">Chi phí quản lý doanh nghiệp</field>
+            <field name="ten_tieng_anh">General &amp; admin expenses</field>
+            <field name="loai_tai_khoan">chi_phi</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Chi phí quản lý chung</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- DOANH THU (Class 5, 7) -->
+        
+        <!-- TK 511: Doanh thu bán hàng -->
+        <record id="tk_511" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">511</field>
+            <field name="ten_tai_khoan">Doanh thu bán hàng</field>
+            <field name="ten_tieng_anh">Sales revenue</field>
+            <field name="loai_tai_khoan">doanh_thu</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">co</field>
+            <field name="mo_ta">Doanh thu bán hàng hóa, dịch vụ</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 711: Thu nhập khác -->
+        <record id="tk_711" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">711</field>
+            <field name="ten_tai_khoan">Thu nhập khác</field>
+            <field name="ten_tieng_anh">Other income</field>
+            <field name="loai_tai_khoan">thu_nhap_khac</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">co</field>
+            <field name="mo_ta">Thu nhập từ thanh lý TSCĐ, lãi chênh lệch...</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+        <!-- TK 811: Chi phí khác -->
+        <record id="tk_811" model="tai_khoan_ke_toan">
+            <field name="ma_tai_khoan">811</field>
+            <field name="ten_tai_khoan">Chi phí khác</field>
+            <field name="ten_tieng_anh">Other expenses</field>
+            <field name="loai_tai_khoan">chi_phi_khac</field>
+            <field name="cap_tai_khoan">cap_2</field>
+            <field name="tinh_chat">no</field>
+            <field name="mo_ta">Chi phí thanh lý TSCĐ, lỗ chênh lệch...</field>
+            <field name="kich_hoat" eval="True"/>
+        </record>
+
+    </data>
+</odoo>

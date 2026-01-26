@@ -29,10 +29,10 @@
     'data': [
         'security/ir.model.access.csv',
         'data/sequences.xml',
-        'views/nhan_vien_extend.xml',
         'views/loai_van_ban.xml',
         'views/van_ban_di.xml',
         'views/van_ban_den.xml',
+        'views/nhan_vien_extend.xml',
         'views/menu.xml',
     ],
     # only loaded in demonstration mode

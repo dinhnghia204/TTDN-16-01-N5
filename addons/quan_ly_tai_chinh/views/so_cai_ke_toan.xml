@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_so_cai_ke_toan_tree" model="ir.ui.view">
+            <field name="name">so.cai.ke.toan.tree</field>
+            <field name="model">so_cai_ke_toan</field>
+            <field name="arch" type="xml">
+                <tree string="Sổ cái kế toán" decoration-info="trang_thai=='nhap'" decoration-success="trang_thai=='da_ghi_so'">
+                    <field name="ma_but_toan"/>
+                    <field name="ngay_hach_toan"/>
+                    <field name="so_chung_tu"/>
+                    <field name="loai_chung_tu"/>
+                    <field name="dien_giai"/>
+                    <field name="tong_no" sum="Tổng Nợ"/>
+                    <field name="tong_co" sum="Tổng Có"/>
+                    <field name="trang_thai"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_so_cai_ke_toan_form" model="ir.ui.view">
+            <field name="name">so.cai.ke.toan.form</field>
+            <field name="model">so_cai_ke_toan</field>
+            <field name="arch" type="xml">
+                <form string="Bút toán">
+                    <header>
+                        <button name="action_ghi_so" string="Ghi sổ" type="object" 
+                                attrs="{'invisible': [('trang_thai', '!=', 'nhap')]}" class="oe_highlight"/>
+                        <button name="action_huy_ghi_so" string="Hủy ghi sổ" type="object" 
+                                attrs="{'invisible': [('trang_thai', '!=', 'da_ghi_so')]}" class="btn-warning"/>
+                        <field name="trang_thai" widget="statusbar"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="ma_but_toan" readonly="1"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="ngay_hach_toan"/>
+                                <field name="ngay_chung_tu"/>
+                                <field name="so_chung_tu"/>
+                            </group>
+                            <group>
+                                <field name="loai_chung_tu"/>
+                                <field name="nguoi_lap_id"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="dien_giai"/>
+                        </group>
+                        <notebook>
+                            <page string="Chi tiết bút toán">
+                                <field name="chi_tiet_but_toan_ids">
+                                    <tree editable="bottom">
+                                        <field name="tk_no_id"/>
+                                        <field name="tk_co_id"/>
+                                        <field name="so_tien_no" sum="Tổng Nợ"/>
+                                        <field name="so_tien_co" sum="Tổng Có"/>
+                                        <field name="dien_giai"/>
+                                    </tree>
+                                </field>
+                                <group class="oe_subtotal_footer oe_right">
+                                    <field name="tong_no"/>
+                                    <field name="tong_co"/>
+                                    <field name="chenh_lech" class="oe_subtotal_footer_separator"/>
+                                </group>
+                            </page>
+                            <page string="Thông tin liên quan">
+                                <group>
+                                    <field name="tai_san_id" attrs="{'invisible': [('loai_chung_tu', '!=', 'tai_san')]}"/>
+                                    <field name="phieu_luong_id" attrs="{'invisible': [('loai_chung_tu', '!=', 'luong')]}"/>
+                                    <field name="van_ban_chi_id" attrs="{'invisible': [('loai_chung_tu', '!=', 'van_ban')]}"/>
+                                    <field name="lich_su_khau_hao_id" attrs="{'invisible': [('loai_chung_tu', '!=', 'khau_hao')]}"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_so_cai_ke_toan" model="ir.actions.act_window">
+            <field name="name">Sổ cái kế toán</field>
+            <field name="res_model">so_cai_ke_toan</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

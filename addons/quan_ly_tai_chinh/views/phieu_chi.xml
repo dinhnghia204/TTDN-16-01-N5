@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_phieu_chi_tree" model="ir.ui.view">
+            <field name="name">phieu.chi.tree</field>
+            <field name="model">phieu_chi</field>
+            <field name="arch" type="xml">
+                <tree string="Phiếu chi" decoration-danger="trang_thai=='da_chi'" decoration-muted="trang_thai=='nhap'">
+                    <field name="ma_phieu_chi"/>
+                    <field name="ngay_chi"/>
+                    <field name="nguoi_nhan"/>
+                    <field name="noi_dung"/>
+                    <field name="so_tien" sum="Tổng chi"/>
+                    <field name="loai_chi"/>
+                    <field name="trang_thai"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_phieu_chi_form" model="ir.ui.view">
+            <field name="name">phieu.chi.form</field>
+            <field name="model">phieu_chi</field>
+            <field name="arch" type="xml">
+                <form string="Phiếu chi">
+                    <header>
+                        <button name="action_xac_nhan_chi" string="Xác nhận chi" 
+                                type="object" attrs="{'invisible': [('trang_thai', '!=', 'nhap')]}" 
+                                class="oe_highlight"/>
+                        <field name="trang_thai" widget="statusbar"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="ma_phieu_chi" readonly="1"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="ngay_chi"/>
+                                <field name="nguoi_nhan"/>
+                                <field name="dia_chi"/>
+                                <field name="loai_chi"/>
+                            </group>
+                            <group>
+                                <field name="noi_dung"/>
+                                <field name="nguoi_lap_id"/>
+                                <field name="nguoi_duyet_id" attrs="{'invisible': [('trang_thai', '=', 'nhap')]}"/>
+                            </group>
+                        </group>
+                        
+                        <group string="Thông tin kế toán">
+                            <group>
+                                <field name="tk_no_id"/>
+                                <field name="tk_co_id" domain="[('ma_tai_khoan', 'in', ['111', '112'])]"/>
+                            </group>
+                            <group>
+                                <field name="so_tien"/>
+                                <field name="so_tien_chu" readonly="1"/>
+                            </group>
+                        </group>
+                        
+                        <group string="Diễn giải">
+                            <field name="dien_giai" nolabel="1"/>
+                        </group>
+                        
+                        <group string="Liên kết" attrs="{'invisible': [('but_toan_id', '=', False)]}">
+                            <field name="but_toan_id" readonly="1"/>
+                            <field name="phieu_luong_id" readonly="1"/>
+                            <field name="hoa_don_mua_id" readonly="1"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_phieu_chi" model="ir.actions.act_window">
+            <field name="name">Phiếu chi</field>
+            <field name="res_model">phieu_chi</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Tạo phiếu chi tiền mới
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

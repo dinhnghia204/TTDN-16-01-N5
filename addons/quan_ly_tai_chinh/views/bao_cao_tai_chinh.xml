@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Dashboard Form View -->
+        <record id="view_bao_cao_tai_chinh_form" model="ir.ui.view">
+            <field name="name">bao.cao.tai.chinh.form</field>
+            <field name="model">bao_cao_tai_chinh</field>
+            <field name="arch" type="xml">
+                <form string="Báo cáo tài chính" create="0" edit="0" delete="0">
+                    <sheet>
+                        <h1>Báo cáo tài chính</h1>
+                        <notebook>
+                            <page string="Bảng cân đối kế toán">
+                                <p>Báo cáo bảng cân đối kế toán sẽ được hiển thị tại đây</p>
+                            </page>
+                            <page string="Kết quả kinh doanh">
+                                <p>Báo cáo kết quả kinh doanh sẽ được hiển thị tại đây</p>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_bao_cao_tai_chinh" model="ir.actions.act_window">
+            <field name="name">Báo cáo tài chính</field>
+            <field name="res_model">bao_cao_tai_chinh</field>
+            <field name="view_mode">form</field>
+            <field name="target">current</field>
+        </record>
+    </data>
+</odoo>

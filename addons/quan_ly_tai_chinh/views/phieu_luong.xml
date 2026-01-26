@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_phieu_luong_tree" model="ir.ui.view">
+            <field name="name">phieu.luong.tree</field>
+            <field name="model">phieu_luong</field>
+            <field name="arch" type="xml">
+                <tree string="Phiếu lương" decoration-info="trang_thai=='nhap'" 
+                      decoration-warning="trang_thai=='da_duyet'" 
+                      decoration-success="trang_thai=='da_chi_tra'">
+                    <field name="ma_phieu_luong"/>
+                    <field name="ten_phieu"/>
+                    <field name="thang"/>
+                    <field name="nam"/>
+                    <field name="tong_luong" sum="Tổng lương"/>
+                    <field name="trang_thai"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_phieu_luong_form" model="ir.ui.view">
+            <field name="name">phieu.luong.form</field>
+            <field name="model">phieu_luong</field>
+            <field name="arch" type="xml">
+                <form string="Phiếu lương">
+                    <header>
+                        <button name="action_tao_chi_tiet_tu_nhan_vien" string="Tạo chi tiết từ nhân viên" 
+                                type="object" attrs="{'invisible': [('trang_thai', '!=', 'nhap')]}" class="btn-info"/>
+                        <button name="action_duyet_phieu_luong" string="Duyệt phiếu" 
+                                type="object" attrs="{'invisible': [('trang_thai', '!=', 'nhap')]}" class="oe_highlight"/>
+                        <button name="action_chi_tra_luong" string="Chi trả lương" 
+                                type="object" attrs="{'invisible': [('trang_thai', '!=', 'da_duyet')]}" class="oe_highlight"/>
+                        <field name="trang_thai" widget="statusbar"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="ma_phieu_luong" readonly="1"/>
+                            </h1>
+                            <h2>
+                                <field name="ten_phieu" readonly="1"/>
+                            </h2>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="thang"/>
+                                <field name="nam"/>
+                                <field name="ngay_cham_cong"/>
+                            </group>
+                            <group>
+                                <field name="ngay_chi_tra"/>
+                                <field name="nguoi_duyet_id" readonly="1"/>
+                                <field name="ngay_duyet" readonly="1"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Chi tiết lương">
+                                <field name="chi_tiet_luong_ids">
+                                    <tree editable="bottom">
+                                        <field name="nhan_vien_id"/>
+                                        <field name="phong_ban_id"/>
+                                        <field name="luong_co_ban"/>
+                                        <field name="phu_cap"/>
+                                        <field name="thuong"/>
+                                        <field name="bao_hiem_xa_hoi"/>
+                                        <field name="khoan_tru"/>
+                                        <field name="luong_thuc_linh" sum="Tổng thực lĩnh"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Tổng hợp">
+                                <group>
+                                    <group>
+                                        <field name="tong_luong_co_ban"/>
+                                        <field name="tong_phu_cap"/>
+                                        <field name="tong_thuong"/>
+                                    </group>
+                                    <group>
+                                        <field name="tong_khoan_tru"/>
+                                        <field name="tong_luong" class="oe_subtotal_footer_separator"/>
+                                    </group>
+                                </group>
+                            </page>
+                            <page string="Bút toán">
+                                <group>
+                                    <field name="but_toan_id" readonly="1"/>
+                                </group>
+                            </page>
+                        </notebook>
+                        <group>
+                            <field name="ghi_chu"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_phieu_luong" model="ir.actions.act_window">
+            <field name="name">Phiếu lương</field>
+            <field name="res_model">phieu_luong</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

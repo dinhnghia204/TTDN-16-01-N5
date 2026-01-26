@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_tai_khoan_ke_toan_tree" model="ir.ui.view">
+            <field name="name">tai.khoan.ke.toan.tree</field>
+            <field name="model">tai_khoan_ke_toan</field>
+            <field name="arch" type="xml">
+                <tree string="Tài khoản kế toán">
+                    <field name="ma_tai_khoan"/>
+                    <field name="ten_tai_khoan"/>
+                    <field name="loai_tai_khoan"/>
+                    <field name="cap_tai_khoan"/>
+                    <field name="tinh_chat"/>
+                    <field name="kich_hoat"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_tai_khoan_ke_toan_form" model="ir.ui.view">
+            <field name="name">tai.khoan.ke.toan.form</field>
+            <field name="model">tai_khoan_ke_toan</field>
+            <field name="arch" type="xml">
+                <form string="Tài khoản kế toán">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="ma_tai_khoan"/>
+                                <field name="ten_tai_khoan"/>
+                                <field name="ten_tieng_anh"/>
+                            </group>
+                            <group>
+                                <field name="loai_tai_khoan"/>
+                                <field name="cap_tai_khoan"/>
+                                <field name="tinh_chat"/>
+                                <field name="kich_hoat"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="tk_cha_id"/>
+                            <field name="mo_ta"/>
+                        </group>
+                        <notebook>
+                            <page string="Tài khoản con">
+                                <field name="tk_con_ids">
+                                    <tree>
+                                        <field name="ma_tai_khoan"/>
+                                        <field name="ten_tai_khoan"/>
+                                        <field name="loai_tai_khoan"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_tai_khoan_ke_toan" model="ir.actions.act_window">
+            <field name="name">Tài khoản kế toán</field>
+            <field name="res_model">tai_khoan_ke_toan</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

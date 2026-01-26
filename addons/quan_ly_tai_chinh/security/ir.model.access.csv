@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tai_khoan_ke_toan_all,tai_khoan_ke_toan.all,model_tai_khoan_ke_toan,base.group_user,1,1,1,1
+access_so_cai_ke_toan_all,so_cai_ke_toan.all,model_so_cai_ke_toan,base.group_user,1,1,1,1
+access_chi_tiet_but_toan_all,chi_tiet_but_toan.all,model_chi_tiet_but_toan,base.group_user,1,1,1,1
+access_phieu_luong_all,phieu_luong.all,model_phieu_luong,base.group_user,1,1,1,1
+access_chi_tiet_luong_all,chi_tiet_luong.all,model_chi_tiet_luong,base.group_user,1,1,1,1
+access_phieu_thu_all,phieu_thu.all,model_phieu_thu,base.group_user,1,1,1,1
+access_phieu_chi_all,phieu_chi.all,model_phieu_chi,base.group_user,1,1,1,1
+access_hoa_don_ban_all,hoa_don_ban.all,model_hoa_don_ban,base.group_user,1,1,1,1
+access_hoa_don_ban_chi_tiet_all,hoa_don_ban_chi_tiet.all,model_hoa_don_ban_chi_tiet,base.group_user,1,1,1,1
+access_hoa_don_mua_all,hoa_don_mua.all,model_hoa_don_mua,base.group_user,1,1,1,1
+access_hoa_don_mua_chi_tiet_all,hoa_don_mua_chi_tiet.all,model_hoa_don_mua_chi_tiet,base.group_user,1,1,1,1
+access_bao_cao_tai_chinh_all,bao_cao_tai_chinh.all,model_bao_cao_tai_chinh,base.group_user,1,0,0,0

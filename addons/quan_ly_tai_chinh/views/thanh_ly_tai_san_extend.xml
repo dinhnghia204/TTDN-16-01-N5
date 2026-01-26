@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Extend form view thanh_ly_tai_san để thêm thông tin tài chính -->
+    <record id="view_thanh_ly_tai_san_form_extend" model="ir.ui.view">
+        <field name="name">thanh.ly.tai.san.form.extend</field>
+        <field name="model">thanh_ly_tai_san</field>
+        <field name="inherit_id" ref="quan_ly_tai_san.view_thanh_ly_tai_san_form"/>
+        <field name="arch" type="xml">
+            <!-- Thêm header với button -->
+            <sheet position="before">
+                <header>
+                    <button name="action_ghi_nhan_thanh_ly" 
+                            type="object" 
+                            string="Ghi nhận thanh lý (Tạo phiếu thu)"
+                            class="btn-primary"
+                            attrs="{'invisible': [('da_ghi_nhan_ke_toan', '=', True)]}"/>
+                    <field name="da_ghi_nhan_ke_toan" invisible="1"/>
+                </header>
+            </sheet>
+            
+            <!-- Thêm group thông tin tài chính -->
+            <xpath expr="//field[@name='gia_ban']" position="after">
+                <field name="gia_thanh_ly" attrs="{'readonly': [('da_ghi_nhan_ke_toan', '=', True)]}"/>
+                <field name="phieu_thu_id" attrs="{'invisible': [('phieu_thu_id', '=', False)]}" readonly="1"/>
+                <field name="but_toan_thanh_ly_id" attrs="{'invisible': [('but_toan_thanh_ly_id', '=', False)]}" readonly="1"/>
+            </xpath>
+        </field>
+    </record>
+    
+    <!-- Extend tree view để hiển thị trạng thái đã ghi nhận -->
+    <record id="view_thanh_ly_tai_san_tree_extend" model="ir.ui.view">
+        <field name="name">thanh.ly.tai.san.tree.extend</field>
+        <field name="model">thanh_ly_tai_san</field>
+        <field name="inherit_id" ref="quan_ly_tai_san.view_thanh_ly_tai_san_tree"/>
+        <field name="arch" type="xml">
+            <tree position="attributes">
+                <attribute name="decoration-success">da_ghi_nhan_ke_toan == True</attribute>
+                <attribute name="decoration-muted">da_ghi_nhan_ke_toan == False</attribute>
+            </tree>
+            
+            <field name="ly_do_thanh_ly" position="after">
+                <field name="gia_thanh_ly"/>
+                <field name="da_ghi_nhan_ke_toan" string="Đã ghi nhận KT"/>
+            </field>
+        </field>
+    </record>
+</odoo>

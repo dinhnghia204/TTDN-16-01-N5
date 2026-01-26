@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Dashboard Form View -->
+        <record id="view_dashboard_tai_chinh_form" model="ir.ui.view">
+            <field name="name">dashboard.tai.chinh.form</field>
+            <field name="model">bao_cao_tai_chinh</field>
+            <field name="arch" type="xml">
+                <form string="Dashboard Tài chính" js_class="dashboard_tai_chinh" create="0" edit="0" delete="0">
+                    <sheet>
+                        <div class="o_dashboard_view">
+                            <h1>Dashboard Tài chính &amp; Kế toán</h1>
+                            
+                            <!-- Stats Cards -->
+                            <div class="row mt-3">
+                                <div class="col-md-3">
+                                    <div class="card text-white bg-primary mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tổng bút toán</h5>
+                                            <h2 class="tong_but_toan">0</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card text-white bg-success mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Đã ghi sổ</h5>
+                                            <h2 class="but_toan_da_ghi_so">0</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card text-white bg-warning mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tổng phiếu lương</h5>
+                                            <h2 class="tong_phieu_luong">0</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card text-white bg-info mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tổng lương tháng</h5>
+                                            <h2 class="tong_luong_thang">0</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Charts -->
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Bút toán theo loại chứng từ</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <canvas id="loaiChungTuChart" style="height: 300px;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Bút toán theo tháng</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <canvas id="butToanTheoThangChart" style="height: 300px;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_dashboard_tai_chinh" model="ir.actions.act_window">
+            <field name="name">Dashboard Tài chính</field>
+            <field name="res_model">bao_cao_tai_chinh</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_dashboard_tai_chinh_form"/>
+            <field name="target">current</field>
+        </record>
+    </data>
+</odoo>

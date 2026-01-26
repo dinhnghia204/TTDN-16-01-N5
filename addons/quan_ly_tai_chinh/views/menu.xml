@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Menu root -->
+        <menuitem id="menu_tai_chinh_root" name="Tài chính/Kế toán" sequence="10"/>
+
+        <!-- Danh mục -->
+        <menuitem id="menu_danh_muc" name="Danh mục" parent="menu_tai_chinh_root" sequence="1"/>
+        <menuitem id="menu_tai_khoan_ke_toan" name="Tài khoản kế toán" action="action_tai_khoan_ke_toan" parent="menu_danh_muc" sequence="1"/>
+
+        <!-- Kế toán -->
+        <menuitem id="menu_ke_toan" name="Kế toán" parent="menu_tai_chinh_root" sequence="2"/>
+        <menuitem id="menu_so_cai_ke_toan" name="Sổ cái kế toán" action="action_so_cai_ke_toan" parent="menu_ke_toan" sequence="1"/>
+        
+        <!-- Quỹ tiền -->
+        <menuitem id="menu_quy_tien" name="Quỹ tiền" parent="menu_tai_chinh_root" sequence="3"/>
+        <menuitem id="menu_phieu_thu" name="Phiếu thu" action="action_phieu_thu" parent="menu_quy_tien" sequence="1"/>
+        <menuitem id="menu_phieu_chi" name="Phiếu chi" action="action_phieu_chi" parent="menu_quy_tien" sequence="2"/>
+        
+        <!-- Hóa đơn -->
+        <menuitem id="menu_hoa_don" name="Hóa đơn" parent="menu_tai_chinh_root" sequence="4"/>
+        <menuitem id="menu_hoa_don_ban" name="Hóa đơn bán" action="action_hoa_don_ban" parent="menu_hoa_don" sequence="1"/>
+        <menuitem id="menu_hoa_don_mua" name="Hóa đơn mua" action="action_hoa_don_mua" parent="menu_hoa_don" sequence="2"/>
+
+        <!-- Lương -->
+        <menuitem id="menu_luong" name="Quản lý lương" parent="menu_tai_chinh_root" sequence="5"/>
+        <menuitem id="menu_phieu_luong" name="Phiếu lương" action="action_phieu_luong" parent="menu_luong" sequence="1"/>
+
+        <!-- Báo cáo -->
+        <menuitem id="menu_bao_cao" name="Báo cáo &amp; Dashboard" parent="menu_tai_chinh_root" sequence="6"/>
+        <menuitem id="menu_dashboard_tai_chinh" name="Dashboard tài chính" action="action_dashboard_tai_chinh" parent="menu_bao_cao" sequence="1"/>
+        <menuitem id="menu_bao_cao_tai_chinh" name="Báo cáo tài chính" action="action_bao_cao_tai_chinh" parent="menu_bao_cao" sequence="2"/>
+    </data>
+</odoo>

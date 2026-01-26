@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Extend tai_san form view -->
+        <record id="view_tai_san_form_inherit_tai_chinh" model="ir.ui.view">
+            <field name="name">tai.san.form.inherit.tai.chinh</field>
+            <field name="model">tai_san</field>
+            <field name="inherit_id" ref="quan_ly_tai_san.tai_san_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook" position="inside">
+                    <page string="Kế toán">
+                        <group>
+                            <group>
+                                <field name="tk_nguyen_gia_id"/>
+                                <field name="tk_khau_hao_id"/>
+                            </group>
+                            <group>
+                                <field name="but_toan_mua_id" readonly="1"/>
+                                <field name="da_ghi_nhan_mua" readonly="1"/>
+                            </group>
+                        </group>
+                        <group>
+                            <button name="action_ghi_nhan_mua_tai_san" string="Ghi nhận mua tài sản" 
+                                    type="object" class="oe_highlight" 
+                                    attrs="{'invisible': [('da_ghi_nhan_mua', '=', True)]}"/>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
