@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Google Gemini Configuration Parameters -->
+        
+        <!-- API Key (cần cập nhật sau khi cài đặt) -->
+        <record id="gemini_api_key_param" model="ir.config_parameter">
+            <field name="key">gemini.api_key</field>
+            <field name="value"></field>
+        </record>
+        
+        <!-- Model Name (gemini-1.5-flash hoặc gemini-1.5-pro) -->
+        <record id="gemini_model_param" model="ir.config_parameter">
+            <field name="key">gemini.model</field>
+            <field name="value">gemini-1.5-flash</field>
+        </record>
+        
+        <!-- Enable/Disable AI Assistant -->
+        <record id="gemini_enabled_param" model="ir.config_parameter">
+            <field name="key">gemini.enabled</field>
+            <field name="value">True</field>
+        </record>
+        
+        <!-- Temperature (0.0 - 2.0) -->
+        <record id="gemini_temperature_param" model="ir.config_parameter">
+            <field name="key">gemini.temperature</field>
+            <field name="value">0.7</field>
+        </record>
+        
+    </data>
+</odoo>

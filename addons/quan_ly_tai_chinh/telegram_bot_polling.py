@@ -83,7 +83,7 @@ class TelegramBotPolling:
         return False
     
     def process_message(self, message):
-        """Xử lý tin nhắn từ Telegram"""
+        """Xử lý tin nhắn từ Telegram với AI Assistant"""
         try:
             # Extract message info
             message_id = message.get('message_id')
@@ -100,24 +100,40 @@ class TelegramBotPolling:
                 logger.warning(f"Ignored message from unauthorized chat: {msg_chat_id}")
                 return
             
-            # Process command with Odoo
+            # Process with Odoo AI Assistant
             with odoo.api.Environment.manage():
                 registry = odoo.registry(self.dbname)
                 with registry.cursor() as cr:
                     env = api.Environment(cr, SUPERUSER_ID, {})
                     
-                    # Call command handler
-                    CommandHandler = env['telegram.command.handler']
-                    response = CommandHandler.handle_command(text, msg_chat_id, user_name)
+                    # Kiểm tra có phải lệnh đặc biệt không
+                    if text in ['/clear', '/reset']:
+                        # Xóa lịch sử hội thoại
+                        AIAssistant = env['ai.assistant']
+                        AIAssistant._clear_history(msg_chat_id)
+                        response = "🔄 Đã xóa lịch sử hội thoại. Bắt đầu cuộc trò chuyện mới!"
+                    elif text.startswith('/') and text in ['/start', '/help']:
+                        # Các lệnh cơ bản vẫn dùng handler cũ
+                        CommandHandler = env['telegram.command.handler']
+                        response = CommandHandler.handle_command(text, msg_chat_id, user_name)
+                    else:
+                        # Sử dụng AI Assistant cho tất cả tin nhắn khác
+                        try:
+                            AIAssistant = env['ai.assistant']
+                            response = AIAssistant.process_message(text, msg_chat_id, user_name)
+                        except Exception as ai_error:
+                            logger.warning(f"AI processing failed: {ai_error}, falling back to rule-based")
+                            # Fallback về rule-based nếu AI fail
+                            CommandHandler = env['telegram.command.handler']
+                            response = CommandHandler.handle_command(text, msg_chat_id, user_name)
                     
-                    # Send response (use plain text for commands with formatting issues)
+                    # Send response
                     if response:
-                        parse_mode = None if '/help' in text else 'HTML'
-                        self.send_message(response, parse_mode=parse_mode)
+                        self.send_message(response, parse_mode='HTML')
                     
         except Exception as e:
             logger.error(f"Error processing message: {e}", exc_info=True)
-            self.send_message(f"❌ Lỗi xử lý lệnh: {str(e)}")
+            self.send_message(f"❌ Lỗi xử lý tin nhắn: {str(e)}")
     
     def run(self):
         """Chạy bot polling loop"""

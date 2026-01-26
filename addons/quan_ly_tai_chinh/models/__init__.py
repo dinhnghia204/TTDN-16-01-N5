@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from . import ai_assistant
 from . import telegram_helper
 from . import telegram_commands
 from . import tai_khoan_ke_toan

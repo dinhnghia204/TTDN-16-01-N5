@@ -1,4 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ai_assistant_all,ai_assistant.all,model_ai_assistant,base.group_user,1,1,1,1
 access_tai_khoan_ke_toan_all,tai_khoan_ke_toan.all,model_tai_khoan_ke_toan,base.group_user,1,1,1,1
 access_so_cai_ke_toan_all,so_cai_ke_toan.all,model_so_cai_ke_toan,base.group_user,1,1,1,1
 access_chi_tiet_but_toan_all,chi_tiet_but_toan.all,model_chi_tiet_but_toan,base.group_user,1,1,1,1

@@ -39,6 +39,7 @@
         'data/sequences.xml',
         'data/tai_khoan_ke_toan_data.xml',
         'data/cron_khau_hao_hang_thang.xml',
+        # 'data/gemini_config.xml',  # Đã tạo rồi, không cần load lại
         
         'views/tai_khoan_ke_toan.xml',
         'views/so_cai_ke_toan.xml',
