@@ -1,10 +1,14 @@
-2026-01-26 19:32:43,331 - telegram_bot_polling - INFO - Starting Telegram bot polling for chat 8082274502
-2026-01-26 19:32:43,331 67616 INFO ? telegram_bot_polling: Starting Telegram bot polling for chat 8082274502 
-2026-01-26 19:32:43,331 - telegram_bot_polling - INFO - Bot is running. Press Ctrl+C to stop.
-2026-01-26 19:32:43,331 67616 INFO ? telegram_bot_polling: Bot is running. Press Ctrl+C to stop. 
-2026-01-26 19:33:04,989 - telegram_bot_polling - INFO - Processing message 111 from Nghia: Kiểm tra quỹ tiền
-2026-01-26 19:33:04,989 67616 INFO ? telegram_bot_polling: Processing message 111 from Nghia: Kiểm tra quỹ tiền 
-2026-01-26 19:33:05,000 - py.warnings - WARNING - /usr/lib/python3.10/contextlib.py:135: DeprecationWarning: Since Odoo 15.0, Environment.manage() is useless.
+2026-01-27 14:17:58,706 - telegram_bot_polling - INFO - Starting Telegram bot polling for chat 8082274502
+2026-01-27 14:17:58,706 2486 INFO ? telegram_bot_polling: Starting Telegram bot polling for chat 8082274502 
+2026-01-27 14:17:58,706 - telegram_bot_polling - INFO - Bot is running. Press Ctrl+C to stop.
+2026-01-27 14:17:58,706 2486 INFO ? telegram_bot_polling: Bot is running. Press Ctrl+C to stop. 
+2026-01-27 14:19:13,135 - telegram_bot_polling - INFO - Processing message 113 from Nghia: 
+2026-01-27 14:19:13,135 2486 INFO ? telegram_bot_polling: Processing message 113 from Nghia:  
+2026-01-27 14:19:13,135 - telegram_bot_polling - WARNING - Ignored message from unauthorized chat: -5202025357
+2026-01-27 14:19:13,135 2486 WARNING ? telegram_bot_polling: Ignored message from unauthorized chat: -5202025357 
+2026-01-27 14:19:57,695 - telegram_bot_polling - INFO - Processing message 114 from Nghia: hiện nay có bao nhiêu tài sản
+2026-01-27 14:19:57,695 2486 INFO ? telegram_bot_polling: Processing message 114 from Nghia: hiện nay có bao nhiêu tài sản 
+2026-01-27 14:19:57,705 - py.warnings - WARNING - /usr/lib/python3.10/contextlib.py:135: DeprecationWarning: Since Odoo 15.0, Environment.manage() is useless.
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 190, in <module>
     main()
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 186, in main
@@ -16,7 +20,7 @@
   File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
     return next(self.gen)
 
-2026-01-26 19:33:05,000 67616 WARNING ? py.warnings: /usr/lib/python3.10/contextlib.py:135: DeprecationWarning: Since Odoo 15.0, Environment.manage() is useless.
+2026-01-27 14:19:57,705 2486 WARNING ? py.warnings: /usr/lib/python3.10/contextlib.py:135: DeprecationWarning: Since Odoo 15.0, Environment.manage() is useless.
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 190, in <module>
     main()
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 186, in main
@@ -28,15 +32,15 @@
   File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
     return next(self.gen)
  
-2026-01-26 19:33:05,018 - odoo.modules.loading - INFO - loading 1 modules...
-2026-01-26 19:33:05,018 67616 INFO odoo odoo.modules.loading: loading 1 modules... 
-2026-01-26 19:33:05,225 - odoo.addons.base.models.ir_actions_report - INFO - You need Wkhtmltopdf to print a pdf version of the reports.
-2026-01-26 19:33:05,225 67616 INFO odoo odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
-2026-01-26 19:33:05,337 - odoo.modules.loading - INFO - 1 modules loaded in 0.32s, 0 queries (+0 extra)
-2026-01-26 19:33:05,337 67616 INFO odoo odoo.modules.loading: 1 modules loaded in 0.32s, 0 queries (+0 extra) 
-2026-01-26 19:33:05,352 - odoo.modules.loading - INFO - loading 12 modules...
-2026-01-26 19:33:05,352 67616 INFO odoo odoo.modules.loading: loading 12 modules... 
-2026-01-26 19:33:05,507 - py.warnings - WARNING - /home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+2026-01-27 14:19:57,726 - odoo.modules.loading - INFO - loading 1 modules...
+2026-01-27 14:19:57,726 2486 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-01-27 14:19:58,052 - odoo.addons.base.models.ir_actions_report - INFO - You need Wkhtmltopdf to print a pdf version of the reports.
+2026-01-27 14:19:58,052 2486 INFO odoo odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-01-27 14:19:58,191 - odoo.modules.loading - INFO - 1 modules loaded in 0.46s, 0 queries (+0 extra)
+2026-01-27 14:19:58,191 2486 INFO odoo odoo.modules.loading: 1 modules loaded in 0.46s, 0 queries (+0 extra) 
+2026-01-27 14:19:58,196 - odoo.modules.loading - INFO - loading 12 modules...
+2026-01-27 14:19:58,196 2486 INFO odoo odoo.modules.loading: loading 12 modules... 
+2026-01-27 14:19:58,264 - py.warnings - WARNING - /home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 190, in <module>
     main()
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 186, in main
@@ -82,7 +86,7 @@
   File "/home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py", line 275, in check_python_version
     warnings.warn(message, FutureWarning)
 
-2026-01-26 19:33:05,507 67616 WARNING odoo py.warnings: /home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+2026-01-27 14:19:58,264 2486 WARNING odoo py.warnings: /home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 190, in <module>
     main()
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 186, in main
@@ -128,7 +132,7 @@
   File "/home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py", line 275, in check_python_version
     warnings.warn(message, FutureWarning)
  
-2026-01-26 19:33:05,843 - py.warnings - WARNING - /home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py:17: FutureWarning: 
+2026-01-27 14:19:58,449 - py.warnings - WARNING - /home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py:17: FutureWarning: 
 
 All support for the `google.generativeai` package has ended. It will no longer be receiving 
 updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
@@ -165,7 +169,7 @@ https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/READM
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py", line 17, in <module>
     import google.generativeai as genai
 
-2026-01-26 19:33:05,843 67616 WARNING odoo py.warnings: /home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py:17: FutureWarning: 
+2026-01-27 14:19:58,449 2486 WARNING odoo py.warnings: /home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py:17: FutureWarning: 
 
 All support for the `google.generativeai` package has ended. It will no longer be receiving 
 updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
@@ -202,11 +206,47 @@ https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/READM
   File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py", line 17, in <module>
     import google.generativeai as genai
  
-2026-01-26 19:33:05,857 - odoo.modules.loading - INFO - 12 modules loaded in 0.51s, 0 queries (+0 extra)
-2026-01-26 19:33:05,857 67616 INFO odoo odoo.modules.loading: 12 modules loaded in 0.51s, 0 queries (+0 extra) 
-2026-01-26 19:33:05,886 - odoo.modules.loading - INFO - Modules loaded.
-2026-01-26 19:33:05,886 67616 INFO odoo odoo.modules.loading: Modules loaded. 
-2026-01-26 19:33:05,888 - odoo.modules.registry - INFO - Registry loaded in 0.887s
-2026-01-26 19:33:05,888 67616 INFO odoo odoo.modules.registry: Registry loaded in 0.887s 
-2026-01-26 19:33:10,625 - telegram_bot_polling - INFO - Message sent to Telegram
-2026-01-26 19:33:10,625 67616 INFO odoo telegram_bot_polling: Message sent to Telegram 
+2026-01-27 14:19:58,457 - odoo.modules.loading - INFO - 12 modules loaded in 0.26s, 0 queries (+0 extra)
+2026-01-27 14:19:58,457 2486 INFO odoo odoo.modules.loading: 12 modules loaded in 0.26s, 0 queries (+0 extra) 
+2026-01-27 14:19:58,479 - odoo.modules.loading - INFO - Modules loaded.
+2026-01-27 14:19:58,479 2486 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-01-27 14:19:58,481 - odoo.modules.registry - INFO - Registry loaded in 0.775s
+2026-01-27 14:19:58,481 2486 INFO odoo odoo.modules.registry: Registry loaded in 0.775s 
+2026-01-27 14:20:03,147 - telegram_bot_polling - INFO - Message sent to Telegram
+2026-01-27 14:20:03,147 2486 INFO odoo telegram_bot_polling: Message sent to Telegram 
+2026-01-27 14:29:33,836 - telegram_bot_polling - INFO - Processing message 116 from Nghia: cho tôi biết thông tin sổ cái kế toán
+2026-01-27 14:29:33,836 2486 INFO odoo telegram_bot_polling: Processing message 116 from Nghia: cho tôi biết thông tin sổ cái kế toán 
+2026-01-27 14:29:33,838 - py.warnings - WARNING - /usr/lib/python3.10/contextlib.py:135: DeprecationWarning: Since Odoo 15.0, Environment.manage() is useless.
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 190, in <module>
+    main()
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 186, in main
+    bot.run()
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 157, in run
+    self.process_message(message)
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 104, in process_message
+    with odoo.api.Environment.manage():
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+
+2026-01-27 14:29:33,838 2486 WARNING odoo py.warnings: /usr/lib/python3.10/contextlib.py:135: DeprecationWarning: Since Odoo 15.0, Environment.manage() is useless.
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 190, in <module>
+    main()
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 186, in main
+    bot.run()
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 157, in run
+    self.process_message(message)
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/telegram_bot_polling.py", line 104, in process_message
+    with odoo.api.Environment.manage():
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+ 
+2026-01-27 14:29:41,348 - telegram_bot_polling - INFO - Message sent to Telegram
+2026-01-27 14:29:41,348 2486 INFO odoo telegram_bot_polling: Message sent to Telegram 
+2026-01-27 14:30:16,544 - telegram_bot_polling - INFO - Processing message 118 from Nghia: cho tôi biết có những mã bút toán nào trg sổ cái kế toán đc ko
+2026-01-27 14:30:16,544 2486 INFO odoo telegram_bot_polling: Processing message 118 from Nghia: cho tôi biết có những mã bút toán nào trg sổ cái kế toán đc ko 
+2026-01-27 14:31:43,693 - telegram_bot_polling - INFO - Message sent to Telegram
+2026-01-27 14:31:43,693 2486 INFO odoo telegram_bot_polling: Message sent to Telegram 
+2026-01-27 14:30:43,162 - telegram_bot_polling - INFO - Processing message 120 from Nghia: có tra cứu cho tôi
+2026-01-27 14:30:43,162 2486 INFO odoo telegram_bot_polling: Processing message 120 from Nghia: có tra cứu cho tôi 
+2026-01-27 14:32:08,669 - telegram_bot_polling - INFO - Message sent to Telegram
+2026-01-27 14:32:08,669 2486 INFO odoo telegram_bot_polling: Message sent to Telegram 

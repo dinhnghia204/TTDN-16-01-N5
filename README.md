@@ -35,7 +35,7 @@ Dự án này nhằm mục đích quản lý tài sản của một tổ chức,
 ## 2.1. Clone project.
 
 ```
-git clone https://github.com/nguyenngocdantruong/TTDN-15-04-N6.git
+git clone https://github.com/dinhnghia204/TTDN-16-01-N5.git
 git checkout 
 ```
 
