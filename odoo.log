@@ -221,3 +221,1067 @@ https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/READM
 2026-01-27 14:42:32,010 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:42:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.030
 2026-01-27 14:43:22,449 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:43:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.088
 2026-01-27 14:44:12,434 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:44:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 49.949
+2026-01-27 14:45:02,797 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:45:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.007
+2026-01-27 14:47:11,218 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:47:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 128.385
+2026-01-27 14:46:43,304 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:46:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.083
+2026-01-27 14:47:33,367 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:47:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.025
+2026-01-27 14:48:23,661 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:48:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 49.942
+2026-01-27 14:49:13,751 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:49:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.035
+2026-01-27 14:50:04,183 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:50:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.072
+2026-01-27 14:50:54,477 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:50:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.952
+2026-01-27 14:51:44,581 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:51:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.078
+2026-01-27 14:52:34,946 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:52:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.020
+2026-01-27 14:53:24,958 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:53:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.977
+2026-01-27 14:54:15,322 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:54:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 49.997
+2026-01-27 14:55:05,442 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:55:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.079
+2026-01-27 14:55:55,724 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:55:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.928
+2026-01-27 14:56:45,862 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:56:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.103
+2026-01-27 14:57:37,134 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:57:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.961
+2026-01-27 14:58:27,162 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:58:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.995
+2026-01-27 14:59:17,618 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 14:59:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.100
+2026-01-27 15:00:07,611 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:00:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 49.932
+2026-01-27 15:00:58,040 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:00:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 -28.279
+2026-01-27 15:01:48,094 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:01:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 -28.289
+2026-01-27 15:02:38,488 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:02:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.037
+2026-01-27 15:03:28,569 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:03:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 49.999
+2026-01-27 15:04:18,933 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:04:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.010
+2026-01-27 15:05:08,996 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:05:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.023
+2026-01-27 15:05:59,380 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:05:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.025
+2026-01-27 15:06:49,441 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:06:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.024
+2026-01-27 15:07:39,812 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:07:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 15:08:29,802 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:08:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.951
+2026-01-27 15:09:20,218 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:09:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.076
+2026-01-27 15:10:10,263 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:10:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.006
+2026-01-27 15:11:00,636 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:11:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 15:11:50,640 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:11:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.967
+2026-01-27 15:12:41,071 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:12:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.081
+2026-01-27 15:13:31,108 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:13:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.996
+2026-01-27 15:14:21,399 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:14:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 49.955
+2026-01-27 15:15:11,519 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:15:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.093
+2026-01-27 15:16:01,823 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:16:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 49.950
+2026-01-27 15:16:51,879 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:16:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.026
+2026-01-27 15:17:42,219 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:17:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.998
+2026-01-27 15:18:32,344 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:18:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.091
+2026-01-27 15:19:22,707 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:19:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.014
+2026-01-27 15:20:12,750 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:20:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.010
+2026-01-27 15:21:03,137 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:21:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.009
+2026-01-27 15:21:53,195 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:21:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.010
+2026-01-27 15:22:43,599 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:22:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.035
+2026-01-27 15:23:33,669 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:23:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.018
+2026-01-27 15:24:24,080 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:24:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.050
+2026-01-27 15:25:14,113 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:25:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 49.984
+2026-01-27 15:26:04,516 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:26:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 50.041
+2026-01-27 15:26:54,573 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:26:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.011
+2026-01-27 15:27:44,965 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:27:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.033
+2026-01-27 15:28:34,994 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:28:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 49.983
+2026-01-27 15:29:25,386 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:29:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.042
+2026-01-27 15:30:15,457 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:30:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.021
+2026-01-27 15:32:24,171 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:32:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.027
+2026-01-27 15:33:14,247 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:33:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.037
+2026-01-27 15:32:46,387 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:32:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.158
+2026-01-27 15:33:36,423 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:33:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 49.983
+2026-01-27 15:34:26,821 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:34:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.050
+2026-01-27 15:35:16,875 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:35:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.018
+2026-01-27 15:37:25,557 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:37:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 128.330
+2026-01-27 15:38:24,862 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:38:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.010
+2026-01-27 15:39:14,949 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:39:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.039
+2026-01-27 15:38:46,999 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:38:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.000
+2026-01-27 15:39:37,366 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:39:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.011
+2026-01-27 15:41:45,741 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:41:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 128.327
+2026-01-27 15:41:17,826 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:41:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 -28.295
+2026-01-27 15:42:07,899 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:42:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.028
+2026-01-27 15:42:58,276 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:42:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.012
+2026-01-27 15:43:48,352 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:43:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.033
+2026-01-27 15:44:38,644 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:44:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.942
+2026-01-27 15:45:29,068 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:45:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.078
+2026-01-27 15:46:19,138 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:46:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.026
+2026-01-27 15:47:09,537 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:47:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.017
+2026-01-27 15:47:59,574 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:47:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.006
+2026-01-27 15:48:49,709 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:48:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.015 49.760
+2026-01-27 15:49:39,743 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:49:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 49.994
+2026-01-27 15:50:30,127 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:50:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.035
+2026-01-27 15:51:20,219 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:51:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.003
+2026-01-27 15:52:10,584 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:52:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.028
+2026-01-27 15:53:00,630 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:53:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.004
+2026-01-27 15:53:50,998 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:53:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.024
+2026-01-27 15:54:41,049 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:54:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.008
+2026-01-27 15:55:31,455 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:55:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.047
+2026-01-27 15:56:21,507 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:56:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.008
+2026-01-27 15:57:11,876 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:57:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.020
+2026-01-27 15:58:01,918 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:58:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.003
+2026-01-27 15:58:52,317 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:58:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.031
+2026-01-27 15:59:42,485 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 15:59:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.007
+2026-01-27 16:00:32,845 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:00:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.009
+2026-01-27 16:01:22,873 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:01:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.989
+2026-01-27 16:02:13,279 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:02:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 -28.294
+2026-01-27 16:03:03,319 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:03:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.008
+2026-01-27 16:03:53,727 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:03:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.026
+2026-01-27 16:04:43,792 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:04:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.006
+2026-01-27 16:05:34,157 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:05:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.020
+2026-01-27 16:06:24,224 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:06:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.012 50.024
+2026-01-27 16:07:14,634 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:07:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 50.027
+2026-01-27 16:08:04,694 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:08:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.026
+2026-01-27 16:08:55,078 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:08:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 -28.292
+2026-01-27 16:09:45,151 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:09:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 -28.297
+2026-01-27 16:10:35,530 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:10:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.017
+2026-01-27 16:12:43,916 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:12:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 128.329
+2026-01-27 16:12:15,975 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:12:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.025
+2026-01-27 16:13:06,042 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:13:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.018
+2026-01-27 16:15:14,753 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:15:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 128.340
+2026-01-27 16:14:46,481 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:14:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 -28.305
+2026-01-27 16:15:36,836 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:15:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 16:16:26,905 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:16:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.023
+2026-01-27 16:17:17,257 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:17:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 16:18:07,299 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:18:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.004
+2026-01-27 16:18:57,689 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:18:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 50.024
+2026-01-27 16:19:47,732 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:19:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 16:20:38,133 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:20:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.025
+2026-01-27 16:21:28,035 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:21:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 49.662
+2026-01-27 16:22:18,403 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:22:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 16:23:08,457 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:23:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.008
+2026-01-27 16:25:17,153 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:25:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 128.346
+2026-01-27 16:24:48,885 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:24:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 -28.314
+2026-01-27 16:25:39,260 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:25:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.029
+2026-01-27 16:26:29,329 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:26:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 16:27:19,696 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:27:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.020
+2026-01-27 16:28:09,736 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:28:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.004
+2026-01-27 16:29:00,122 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:29:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.027
+2026-01-27 16:29:50,183 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:29:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 16:30:40,559 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:30:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.013
+2026-01-27 16:31:30,623 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:31:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.020
+2026-01-27 16:32:21,008 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:32:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.018
+2026-01-27 16:33:11,059 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:33:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.010
+2026-01-27 16:34:01,436 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:34:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.019
+2026-01-27 16:34:51,445 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:34:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.962
+2026-01-27 16:35:41,825 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:35:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.022
+2026-01-27 16:36:31,929 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:36:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.012 50.039
+2026-01-27 16:37:22,302 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:37:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.009
+2026-01-27 16:38:12,385 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:38:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.028
+2026-01-27 16:39:02,753 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:39:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.013
+2026-01-27 16:39:52,840 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:39:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.022
+2026-01-27 16:40:43,218 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:40:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.009
+2026-01-27 16:41:33,267 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:41:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.010
+2026-01-27 16:42:23,663 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:42:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.029
+2026-01-27 16:43:13,719 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:43:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 16:44:04,122 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:44:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 -28.310
+2026-01-27 16:44:54,210 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:44:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 78.346 -28.307
+2026-01-27 16:45:44,569 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:45:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.010
+2026-01-27 16:46:34,412 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:46:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.794
+2026-01-27 16:47:24,791 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:47:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.018
+2026-01-27 16:48:14,866 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:48:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.022
+2026-01-27 16:49:05,224 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:49:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.016
+2026-01-27 16:49:55,263 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:49:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.003
+2026-01-27 16:50:45,617 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:50:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.014
+2026-01-27 16:51:35,678 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:51:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.023
+2026-01-27 16:52:26,047 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:52:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.025
+2026-01-27 16:53:16,123 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:53:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.008
+2026-01-27 16:54:06,531 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:54:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.013 50.034
+2026-01-27 16:54:56,618 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:54:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.027
+2026-01-27 16:55:46,991 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:55:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.015
+2026-01-27 16:56:37,049 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:56:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.018
+2026-01-27 16:57:27,408 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:57:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 16:58:17,458 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:58:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.008
+2026-01-27 16:59:07,840 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:59:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.023
+2026-01-27 16:59:57,910 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 16:59:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.014
+2026-01-27 17:00:48,281 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:00:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.019
+2026-01-27 17:01:38,365 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:01:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.028
+2026-01-27 17:02:28,753 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:02:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.022
+2026-01-27 17:03:18,810 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:03:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.008
+2026-01-27 17:04:09,186 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:04:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.012
+2026-01-27 17:04:59,267 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:04:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.032
+2026-01-27 17:05:49,641 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:05:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.021
+2026-01-27 17:06:39,703 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:06:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.021
+2026-01-27 17:07:30,109 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:07:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.035
+2026-01-27 17:08:20,165 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:08:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.006
+2026-01-27 17:09:10,527 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:09:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.018
+2026-01-27 17:10:00,584 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:10:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 17:10:50,965 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:10:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 17:11:41,020 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:11:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.010
+2026-01-27 17:12:31,381 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:12:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 17:13:21,435 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:13:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.011
+2026-01-27 17:14:11,808 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:14:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 17:15:01,882 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:15:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.022
+2026-01-27 17:15:52,248 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:15:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.015
+2026-01-27 17:16:42,349 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:16:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.030
+2026-01-27 17:17:32,724 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:17:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.020
+2026-01-27 17:18:22,780 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:18:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.013
+2026-01-27 17:20:31,512 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:20:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 -78.334 128.356
+2026-01-27 17:21:21,599 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:21:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.022
+2026-01-27 17:20:53,633 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:20:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 17:21:43,711 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:21:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.022
+2026-01-27 17:22:34,036 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:22:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.977
+2026-01-27 17:23:24,107 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:23:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.029
+2026-01-27 17:24:14,468 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:24:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 17:25:04,526 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:25:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 17:25:54,903 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:25:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.028
+2026-01-27 17:26:44,954 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:26:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 17:27:35,305 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:27:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.001
+2026-01-27 17:28:25,359 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:28:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 17:29:15,724 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:29:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.018
+2026-01-27 17:30:05,779 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:30:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.024
+2026-01-27 17:30:56,153 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:30:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 17:31:46,198 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:31:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 17:32:36,573 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:32:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.025
+2026-01-27 17:33:26,639 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:33:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.023
+2026-01-27 17:34:17,024 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:34:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.024
+2026-01-27 17:35:07,104 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:35:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.021
+2026-01-27 17:35:57,471 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:35:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 17:36:47,530 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:36:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 17:37:37,886 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:37:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 17:38:27,963 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:38:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.029
+2026-01-27 17:39:18,320 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:39:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.023
+2026-01-27 17:40:08,377 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:40:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.009
+2026-01-27 17:40:58,751 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:40:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.025
+2026-01-27 17:41:48,813 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:41:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.026
+2026-01-27 17:42:39,193 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:42:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.013
+2026-01-27 17:43:29,238 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:43:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.005
+2026-01-27 17:44:19,615 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:44:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 17:45:09,675 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:45:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 17:46:00,056 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:46:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.017
+2026-01-27 17:46:50,104 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:46:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.014
+2026-01-27 17:47:40,479 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:47:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 17:48:30,548 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:48:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.029
+2026-01-27 17:49:20,969 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:49:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.014 50.029
+2026-01-27 17:50:11,036 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:50:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.018
+2026-01-27 17:51:01,419 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:51:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.024
+2026-01-27 17:51:51,474 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:51:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 17:54:00,201 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:54:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.375
+2026-01-27 17:54:50,276 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:54:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.377
+2026-01-27 17:54:22,283 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:54:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 17:55:12,324 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:55:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 17:56:02,709 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:56:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.021
+2026-01-27 17:56:52,759 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:56:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.017
+2026-01-27 17:57:43,158 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:57:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.027
+2026-01-27 17:58:33,223 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:58:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.028
+2026-01-27 17:59:23,581 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 17:59:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.010
+2026-01-27 18:00:13,631 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:00:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.012
+2026-01-27 18:01:03,990 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:01:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.005
+2026-01-27 18:01:54,051 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:01:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.020
+2026-01-27 18:02:44,431 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:02:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.027
+2026-01-27 18:03:34,497 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:03:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.022
+2026-01-27 18:04:24,824 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:04:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 49.971
+2026-01-27 18:05:14,923 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:05:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.062
+2026-01-27 18:06:05,296 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:06:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.021
+2026-01-27 18:06:55,380 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:06:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.012 50.026
+2026-01-27 18:07:45,759 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:07:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.034
+2026-01-27 18:08:35,835 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:08:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.014
+2026-01-27 18:09:26,165 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:09:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 49.974
+2026-01-27 18:10:16,345 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:10:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.017 50.087
+2026-01-27 18:11:06,709 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:11:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.008
+2026-01-27 18:11:56,767 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:11:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.018
+2026-01-27 18:12:47,128 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:12:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.000
+2026-01-27 18:13:37,188 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:13:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 18:14:27,558 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:14:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.018
+2026-01-27 18:15:17,636 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:15:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.022
+2026-01-27 18:16:08,005 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:16:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.016
+2026-01-27 18:16:58,053 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:16:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.015
+2026-01-27 18:17:48,433 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:17:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 18:18:38,481 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:18:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 18:19:28,855 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:19:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.020
+2026-01-27 18:20:19,230 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:20:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 18:21:09,279 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:21:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.005
+2026-01-27 18:21:59,648 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:21:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.024
+2026-01-27 18:22:49,724 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:22:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.026
+2026-01-27 18:23:40,075 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:23:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 -28.349
+2026-01-27 18:24:30,166 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:24:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.012 50.021
+2026-01-27 18:26:38,892 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:26:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.381
+2026-01-27 18:27:28,949 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:27:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.020
+2026-01-27 18:27:00,923 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:27:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.009
+2026-01-27 18:27:51,027 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:27:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.008
+2026-01-27 18:28:41,397 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:28:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.026
+2026-01-27 18:29:31,453 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:29:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 18:30:21,814 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:30:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 18:31:11,898 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:31:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 50.027
+2026-01-27 18:32:02,280 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:32:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.012
+2026-01-27 18:32:52,347 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:32:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.011
+2026-01-27 18:33:42,711 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:33:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.013
+2026-01-27 18:34:32,764 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:34:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.011
+2026-01-27 18:35:23,132 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:35:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.030
+2026-01-27 18:36:13,174 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:36:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.014
+2026-01-27 18:37:03,539 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:37:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.013
+2026-01-27 18:39:11,992 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:39:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 128.386
+2026-01-27 18:38:43,977 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:38:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.011
+2026-01-27 18:39:34,023 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:39:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.009
+2026-01-27 18:40:24,397 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:40:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.027
+2026-01-27 18:41:14,455 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:41:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.020
+2026-01-27 18:42:04,839 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:42:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.011
+2026-01-27 18:42:54,898 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:42:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 18:43:45,276 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:43:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.030
+2026-01-27 18:44:35,329 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:44:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.014
+2026-01-27 18:45:25,687 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:45:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.010
+2026-01-27 18:46:15,744 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:46:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.026
+2026-01-27 18:47:06,120 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:47:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.015
+2026-01-27 18:47:56,191 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:47:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.013
+2026-01-27 18:48:46,591 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:48:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.025
+2026-01-27 18:49:36,637 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:49:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.011
+2026-01-27 18:50:27,028 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:50:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.026
+2026-01-27 18:51:17,080 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:51:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 18:52:07,464 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:52:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.020
+2026-01-27 18:52:57,502 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:52:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.010
+2026-01-27 18:53:47,871 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:53:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 18:54:37,935 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:54:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.022
+2026-01-27 18:55:28,326 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:55:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.020
+2026-01-27 18:56:18,424 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:56:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.013 50.029
+2026-01-27 18:58:27,228 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:58:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 -78.384 128.427
+2026-01-27 18:59:17,300 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:59:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.024
+2026-01-27 18:58:49,289 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:58:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.006
+2026-01-27 18:59:39,353 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 18:59:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.021
+2026-01-27 19:00:29,764 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:00:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.013 50.034
+2026-01-27 19:01:19,830 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:01:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.017
+2026-01-27 19:03:28,597 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:03:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 128.408
+2026-01-27 19:03:00,288 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:03:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 -28.345
+2026-01-27 19:03:50,640 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:03:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 19:04:40,683 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:04:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.013
+2026-01-27 19:05:31,047 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:05:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.012
+2026-01-27 19:06:21,111 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:06:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.019
+2026-01-27 19:07:11,468 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:07:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.014
+2026-01-27 19:08:01,525 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:08:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 19:08:51,906 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:08:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.020
+2026-01-27 19:09:41,952 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:09:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 19:10:32,356 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:10:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.026
+2026-01-27 19:11:22,423 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:11:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.013
+2026-01-27 19:12:12,847 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:12:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.034
+2026-01-27 19:13:02,893 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:13:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.010
+2026-01-27 19:13:53,305 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:13:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.030
+2026-01-27 19:14:43,351 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:14:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.009
+2026-01-27 19:15:33,708 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:15:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.009
+2026-01-27 19:16:23,792 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:16:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.034
+2026-01-27 19:17:14,153 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:17:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 19:19:22,601 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:19:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.401
+2026-01-27 19:18:54,593 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:18:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 -28.367
+2026-01-27 19:19:44,677 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:19:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.021
+2026-01-27 19:20:35,049 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:20:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.013
+2026-01-27 19:21:25,111 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:21:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 19:22:15,496 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:22:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.028
+2026-01-27 19:23:05,579 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:23:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.023
+2026-01-27 19:23:55,943 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:23:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.004
+2026-01-27 19:24:46,000 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:24:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.011
+2026-01-27 19:25:36,407 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:25:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.014 50.028
+2026-01-27 19:26:26,462 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:26:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.007
+2026-01-27 19:27:16,817 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:27:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.012
+2026-01-27 19:28:06,880 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:28:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.022
+2026-01-27 19:30:15,625 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:30:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.010
+2026-01-27 19:29:47,266 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:29:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 -28.393
+2026-01-27 19:30:37,642 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:30:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.014
+2026-01-27 19:31:27,710 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:31:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.003
+2026-01-27 19:32:18,109 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:32:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.014 50.021
+2026-01-27 19:33:08,164 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:33:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 19:33:58,517 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:33:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.002
+2026-01-27 19:34:31,707 2491 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2026-01-27 19:34:31,785 2491 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 2 removed 
+2026-01-27 19:34:31,828 2491 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-01-27 19:34:31,860 2491 INFO odoo odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2026-01-27 19:34:31,886 2491 INFO odoo odoo.models.unlink: User #1 deleted bus.bus records with IDs: [16, 17, 18, 19] 
+2026-01-27 19:34:31,927 2491 INFO odoo odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2026-01-27 19:34:48,565 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:34:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.011
+2026-01-27 19:35:38,923 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:35:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.005
+2026-01-27 19:36:28,994 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:36:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.030
+2026-01-27 19:37:19,348 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:37:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 19:38:08,983 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:38:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 49.601
+2026-01-27 19:38:59,346 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:38:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.010
+2026-01-27 19:39:49,386 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:39:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.011
+2026-01-27 19:40:39,764 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:40:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 19:41:29,808 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:41:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.007
+2026-01-27 19:42:20,207 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:42:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.019
+2026-01-27 19:43:10,268 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:43:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.012
+2026-01-27 19:44:00,648 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:44:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.023
+2026-01-27 19:44:50,717 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:44:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.025
+2026-01-27 19:45:41,085 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:45:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.007
+2026-01-27 19:46:31,150 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:46:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 19:47:21,620 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:47:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.117
+2026-01-27 19:48:11,682 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:48:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.017
+2026-01-27 19:49:02,086 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:49:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.003
+2026-01-27 19:49:52,166 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:49:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.033
+2026-01-27 19:50:42,541 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:50:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.014
+2026-01-27 19:51:32,638 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:51:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.059
+2026-01-27 19:52:23,062 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:52:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.060
+2026-01-27 19:53:13,148 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:53:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.036
+2026-01-27 19:54:03,530 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:54:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.013
+2026-01-27 19:54:53,607 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:54:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.031
+2026-01-27 19:55:43,975 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:55:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.009
+2026-01-27 19:56:34,034 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:56:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.014
+2026-01-27 19:57:24,416 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:57:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.017
+2026-01-27 19:58:14,485 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:58:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 19:59:04,854 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:59:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.015
+2026-01-27 19:59:54,902 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 19:59:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.008
+2026-01-27 20:00:45,275 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:00:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.012
+2026-01-27 20:01:35,328 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:01:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.004
+2026-01-27 20:02:25,704 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:02:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.023
+2026-01-27 20:03:15,766 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:03:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 50.017
+2026-01-27 20:04:06,144 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:04:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 78.418 -28.398
+2026-01-27 20:04:56,229 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:04:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.030
+2026-01-27 20:07:05,017 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:07:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.019
+2026-01-27 20:07:55,071 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:07:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 20:07:27,044 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:07:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.020
+2026-01-27 20:08:17,106 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:08:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 20:09:07,469 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:09:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 20:09:57,533 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:09:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.016
+2026-01-27 20:10:47,897 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:10:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.009
+2026-01-27 20:11:37,974 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:11:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.017
+2026-01-27 20:12:28,360 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:12:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.019
+2026-01-27 20:13:18,413 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:13:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.010
+2026-01-27 20:14:08,802 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:14:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.012 50.029
+2026-01-27 20:14:58,986 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:14:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.018
+2026-01-27 20:15:49,348 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:15:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 20:16:39,435 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:16:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.048
+2026-01-27 20:17:29,842 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:17:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.042
+2026-01-27 20:18:19,918 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:18:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.029
+2026-01-27 20:19:10,323 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:19:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.050
+2026-01-27 20:20:00,395 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:20:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.027
+2026-01-27 20:20:50,771 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:20:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.006
+2026-01-27 20:21:40,830 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:21:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.028
+2026-01-27 20:22:31,212 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:22:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.025
+2026-01-27 20:23:21,292 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:23:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.028
+2026-01-27 20:24:11,659 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:24:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.012
+2026-01-27 20:25:01,705 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:25:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.002
+2026-01-27 20:25:52,106 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:25:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.032
+2026-01-27 20:26:42,174 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:26:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.012
+2026-01-27 20:27:32,577 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:27:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.031
+2026-01-27 20:28:22,645 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:28:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.016
+2026-01-27 20:29:13,039 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:29:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.027
+2026-01-27 20:30:03,092 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:30:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.005
+2026-01-27 20:30:53,462 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:30:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.009
+2026-01-27 20:31:43,528 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:31:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 20:32:33,929 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:32:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.039
+2026-01-27 20:33:23,977 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:33:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.006
+2026-01-27 20:34:14,340 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:34:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 -28.408
+2026-01-27 20:35:04,396 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:35:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 20:35:54,765 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:35:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.022
+2026-01-27 20:36:44,802 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:36:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.003
+2026-01-27 20:37:35,189 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:37:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.028
+2026-01-27 20:38:25,247 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:38:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.011
+2026-01-27 20:39:15,614 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:39:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.018
+2026-01-27 20:40:05,677 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:40:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.017
+2026-01-27 20:42:14,508 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:42:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 128.448
+2026-01-27 20:43:04,572 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:43:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.016
+2026-01-27 20:42:36,524 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:42:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.021
+2026-01-27 20:43:26,574 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:43:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.012 50.001
+2026-01-27 20:44:16,940 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:44:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.024
+2026-01-27 20:45:06,994 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:45:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.002 50.017
+2026-01-27 20:45:57,360 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:45:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.016
+2026-01-27 20:46:47,412 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:46:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.002
+2026-01-27 20:47:37,801 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:47:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.025
+2026-01-27 20:48:27,869 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:48:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.021
+2026-01-27 20:49:18,253 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:49:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.017
+2026-01-27 20:50:08,317 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:50:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.018
+2026-01-27 20:50:58,718 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:50:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.028
+2026-01-27 20:51:48,762 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:51:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.004
+2026-01-27 20:52:39,158 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:52:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.035
+2026-01-27 20:53:29,211 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:53:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 20:54:19,595 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:54:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.013 50.025
+2026-01-27 20:55:09,663 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:55:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.022
+2026-01-27 20:56:00,026 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:56:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.013
+2026-01-27 20:56:50,097 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:56:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.025
+2026-01-27 20:57:40,494 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:57:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.031
+2026-01-27 20:58:30,578 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:58:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.028
+2026-01-27 20:59:20,956 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 20:59:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.005
+2026-01-27 21:00:11,054 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:00:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.034
+2026-01-27 21:01:01,419 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:01:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.008
+2026-01-27 21:01:51,488 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:01:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.023
+2026-01-27 21:02:41,871 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:02:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.028
+2026-01-27 21:03:31,937 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:03:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 21:04:22,329 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:04:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.031
+2026-01-27 21:05:12,371 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:05:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.009
+2026-01-27 21:06:02,392 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:06:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 49.658
+2026-01-27 21:06:52,456 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:06:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 21:07:42,835 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:07:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.029
+2026-01-27 21:08:32,893 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:08:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.012
+2026-01-27 21:09:23,284 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:09:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.033
+2026-01-27 21:10:13,335 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:10:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.005
+2026-01-27 21:11:03,716 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:11:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.024
+2026-01-27 21:11:53,798 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:11:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.034
+2026-01-27 21:12:44,175 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:12:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 21:13:34,244 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:13:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.022
+2026-01-27 21:14:24,612 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:14:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.012
+2026-01-27 21:15:14,668 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:15:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 21:16:05,038 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:16:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 -28.432
+2026-01-27 21:16:55,092 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:16:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 21:19:03,921 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:19:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.470
+2026-01-27 21:19:53,996 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:19:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.481
+2026-01-27 21:19:25,933 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:19:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.017
+2026-01-27 21:20:16,313 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:20:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.017
+2026-01-27 21:21:06,393 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:21:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.008
+2026-01-27 21:21:56,798 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:21:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.020
+2026-01-27 21:22:46,866 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:22:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.032
+2026-01-27 21:23:37,216 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:23:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.005
+2026-01-27 21:24:27,284 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:24:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.027
+2026-01-27 21:25:17,693 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:25:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.024
+2026-01-27 21:26:07,743 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:26:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.013
+2026-01-27 21:26:58,119 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:26:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.018
+2026-01-27 21:27:48,194 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:27:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.028
+2026-01-27 21:28:38,552 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:28:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.011
+2026-01-27 21:29:28,618 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:29:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.030
+2026-01-27 21:30:18,972 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:30:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.006
+2026-01-27 21:31:09,052 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:31:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.029
+2026-01-27 21:31:59,417 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:31:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.009
+2026-01-27 21:32:49,483 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:32:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.032
+2026-01-27 21:33:39,841 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:33:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.012
+2026-01-27 21:34:29,901 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:34:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.015
+2026-01-27 21:35:20,280 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:35:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.023
+2026-01-27 21:36:10,343 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:36:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.026
+2026-01-27 21:37:00,712 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:37:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.008
+2026-01-27 21:37:50,773 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:37:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.029
+2026-01-27 21:38:41,149 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:38:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.025
+2026-01-27 21:39:31,213 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:39:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 21:40:21,590 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:40:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.028
+2026-01-27 21:41:11,637 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:41:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.011
+2026-01-27 21:42:02,026 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:42:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.026
+2026-01-27 21:42:52,104 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:42:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.034
+2026-01-27 21:43:42,462 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:43:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 21:44:32,527 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:44:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.018
+2026-01-27 21:45:22,896 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:45:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 21:46:12,958 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:46:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.018
+2026-01-27 21:47:03,322 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:47:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.007
+2026-01-27 21:47:53,374 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:47:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.022
+2026-01-27 21:48:43,799 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:48:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.013 50.035
+2026-01-27 21:49:33,856 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:49:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.016
+2026-01-27 21:50:24,224 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:50:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 -28.438
+2026-01-27 21:51:14,290 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:51:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 -28.436
+2026-01-27 21:52:04,660 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:52:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.015
+2026-01-27 21:54:13,179 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:54:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 128.477
+2026-01-27 21:53:45,110 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:53:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 -28.431
+2026-01-27 21:54:35,168 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:54:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.006
+2026-01-27 21:55:25,551 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:55:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.020
+2026-01-27 21:56:15,617 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:56:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.021
+2026-01-27 21:57:05,992 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:57:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.018
+2026-01-27 21:57:55,833 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:57:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 49.798
+2026-01-27 21:58:46,201 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:58:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 21:59:36,261 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 21:59:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 22:00:26,638 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:00:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.023
+2026-01-27 22:01:16,709 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:01:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.022
+2026-01-27 22:02:07,087 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:02:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.025
+2026-01-27 22:02:57,154 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:02:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.010
+2026-01-27 22:03:47,475 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:03:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 49.966
+2026-01-27 22:04:37,536 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:04:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.024
+2026-01-27 22:05:27,909 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:05:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.019
+2026-01-27 22:06:17,981 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:06:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.021
+2026-01-27 22:07:08,341 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:07:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.014
+2026-01-27 22:07:58,388 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:07:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.012
+2026-01-27 22:08:48,763 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:08:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.015
+2026-01-27 22:09:38,832 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:09:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.024
+2026-01-27 22:10:29,210 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:10:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 22:11:19,264 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:11:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.014
+2026-01-27 22:12:09,645 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:12:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 22:12:59,690 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:12:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.003
+2026-01-27 22:13:50,086 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:13:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.027
+2026-01-27 22:14:40,158 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:14:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.023
+2026-01-27 22:15:30,559 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:15:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.024
+2026-01-27 22:16:20,611 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:16:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 22:17:11,014 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:17:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.035
+2026-01-27 22:18:01,079 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:18:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.017
+2026-01-27 22:18:51,444 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:18:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.015
+2026-01-27 22:19:41,515 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:19:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.017
+2026-01-27 22:20:31,897 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:20:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 22:21:21,974 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:21:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.011
+2026-01-27 22:22:12,352 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:22:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.030
+2026-01-27 22:23:02,412 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:23:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-27 22:23:52,780 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:23:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.013
+2026-01-27 22:24:42,841 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:24:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.022
+2026-01-27 22:25:33,199 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:25:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.008
+2026-01-27 22:26:23,260 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:26:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.020
+2026-01-27 22:27:13,650 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:27:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.028
+2026-01-27 22:28:03,728 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:28:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.024
+2026-01-27 22:30:12,592 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:30:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 128.497
+2026-01-27 22:31:02,651 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:31:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.020
+2026-01-27 22:30:34,544 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:30:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.018
+2026-01-27 22:31:24,586 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:31:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.009
+2026-01-27 22:32:14,978 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:32:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.024
+2026-01-27 22:33:05,057 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:33:05] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.033
+2026-01-27 22:33:55,423 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:33:55] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.008
+2026-01-27 22:34:45,486 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:34:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.017
+2026-01-27 22:35:35,870 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:35:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.024
+2026-01-27 22:36:25,925 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:36:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 22:37:16,298 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:37:16] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.014
+2026-01-27 22:38:06,369 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:38:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.034
+2026-01-27 22:38:56,754 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:38:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.024
+2026-01-27 22:39:46,803 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:39:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.006
+2026-01-27 22:40:37,180 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:40:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.018
+2026-01-27 22:41:27,250 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:41:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.030
+2026-01-27 22:42:17,616 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:42:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.017
+2026-01-27 22:43:07,692 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:43:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.029
+2026-01-27 22:43:58,068 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:43:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.019
+2026-01-27 22:44:48,113 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:44:48] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.001
+2026-01-27 22:45:38,506 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:45:38] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.020
+2026-01-27 22:46:28,594 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:46:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.024
+2026-01-27 22:47:18,959 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:47:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.023
+2026-01-27 22:48:09,029 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:48:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.024
+2026-01-27 22:48:59,404 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:48:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.013
+2026-01-27 22:49:49,481 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:49:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.029
+2026-01-27 22:50:39,842 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:50:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.003
+2026-01-27 22:51:29,910 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:51:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.027
+2026-01-27 22:52:20,269 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:52:20] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.007
+2026-01-27 22:53:10,324 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:53:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 22:54:00,724 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:54:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.027
+2026-01-27 22:54:50,769 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:54:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 22:55:41,165 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:55:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.024
+2026-01-27 22:56:31,231 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:56:31] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.017
+2026-01-27 22:57:21,608 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:57:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.012
+2026-01-27 22:58:11,670 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:58:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.016
+2026-01-27 22:59:02,049 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:59:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.011
+2026-01-27 22:59:52,117 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 22:59:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.024
+2026-01-27 23:00:42,481 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:00:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.016
+2026-01-27 23:01:32,552 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:01:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.025
+2026-01-27 23:02:22,952 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:02:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.024
+2026-01-27 23:03:13,003 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:03:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.006
+2026-01-27 23:05:21,870 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:05:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.015
+2026-01-27 23:06:11,937 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:06:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.017
+2026-01-27 23:05:43,829 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:05:43] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.013
+2026-01-27 23:06:33,903 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:06:33] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.023
+2026-01-27 23:07:24,275 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:07:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.028
+2026-01-27 23:08:14,366 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:08:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.030
+2026-01-27 23:09:04,732 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:09:04] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.006
+2026-01-27 23:09:54,821 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:09:54] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.036
+2026-01-27 23:10:45,183 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:10:45] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.010
+2026-01-27 23:11:35,256 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:11:35] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.021
+2026-01-27 23:12:25,642 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:12:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.013
+2026-01-27 23:13:15,684 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:13:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 -28.485
+2026-01-27 23:14:06,072 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:14:06] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.024
+2026-01-27 23:14:56,133 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:14:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.021
+2026-01-27 23:15:46,511 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:15:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.028
+2026-01-27 23:16:36,570 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:16:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.011
+2026-01-27 23:17:26,951 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:17:26] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.024
+2026-01-27 23:18:17,014 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:18:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.014
+2026-01-27 23:19:07,415 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:19:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.029
+2026-01-27 23:19:57,482 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:19:57] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.019
+2026-01-27 23:20:47,859 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:20:47] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.023
+2026-01-27 23:21:37,907 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:21:37] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.000
+2026-01-27 23:22:28,285 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:22:28] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.030
+2026-01-27 23:23:18,349 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:23:18] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.016
+2026-01-27 23:24:08,710 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:24:08] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 23:24:58,773 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:24:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.016
+2026-01-27 23:25:49,156 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:25:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.025
+2026-01-27 23:26:39,216 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:26:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.011
+2026-01-27 23:27:29,592 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:27:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.019
+2026-01-27 23:28:19,667 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:28:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.029
+2026-01-27 23:29:10,056 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:29:10] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.025
+2026-01-27 23:30:00,117 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:30:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.018
+2026-01-27 23:30:50,507 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:30:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.030
+2026-01-27 23:31:40,542 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:31:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 49.999
+2026-01-27 23:32:30,937 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:32:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.038
+2026-01-27 23:33:21,005 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:33:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 23:34:11,398 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:34:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.019
+2026-01-27 23:35:01,463 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:35:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.017
+2026-01-27 23:35:51,847 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:35:51] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.019
+2026-01-27 23:36:41,657 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:36:41] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 49.763
+2026-01-27 23:37:32,012 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:37:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.006
+2026-01-27 23:38:22,071 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:38:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.025
+2026-01-27 23:40:30,957 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:40:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.018
+2026-01-27 23:40:02,522 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:40:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 -28.479
+2026-01-27 23:40:52,871 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:40:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.000
+2026-01-27 23:41:42,936 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:41:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.019
+2026-01-27 23:43:46,307 2491 WARNING ? odoo.service.server: Thread <Thread(odoo.service.http.request.135414018995776, started 135414018995776)> virtual real time limit (122/120s) reached. 
+2026-01-27 23:43:46,309 2491 INFO ? odoo.service.server: Dumping stacktrace of limit exceeding threads before reloading 
+2026-01-27 23:43:46,321 2491 INFO ? odoo.tools.misc: 
+# Thread: <Thread(odoo.service.http.request.135414018995776, started 135414018995776)> (db:n/a) (uid:n/a) (url:n/a)
+File: "/usr/lib/python3.10/threading.py", line 973, in _bootstrap
+  self._bootstrap_inner()
+File: "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  self.run()
+File: "/usr/lib/python3.10/threading.py", line 953, in run
+  self._target(*self._args, **self._kwargs)
+File: "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+  self.finish_request(request, client_address)
+File: "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+  self.RequestHandlerClass(request, client_address, self)
+File: "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+  self.handle()
+File: "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 342, in handle
+  BaseHTTPRequestHandler.handle(self)
+File: "/usr/lib/python3.10/http/server.py", line 433, in handle
+  self.handle_one_request()
+File: "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 370, in handle_one_request
+  self.raw_requestline = self.rfile.readline()
+File: "/usr/lib/python3.10/socket.py", line 705, in readinto
+  return self._sock.recv_into(b) 
+2026-01-27 23:43:46,322 2491 INFO ? odoo.service.server: Initiating server reload 
+2026-01-27 23:42:28,148 2491 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+Exception in thread odoo.service.cron.cron0:
+Traceback (most recent call last):
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/server.py", line 445, in cron_thread
+2026-01-27 23:42:29,166 2491 INFO ? odoo: Odoo version 15.0 
+2026-01-27 23:42:29,166 2491 INFO ? odoo: Using configuration file at /home/nghiax/TTDN-16-01-N5/odoo.conf 
+2026-01-27 23:42:29,166 2491 INFO ? odoo: addons paths: ['/home/nghiax/TTDN-16-01-N5/odoo/addons', '/home/nghiax/.local/share/Odoo/addons/15.0', '/home/nghiax/TTDN-16-01-N5/addons'] 
+2026-01-27 23:42:29,166 2491 INFO ? odoo: database: odoo@localhost:5434 
+2026-01-27 23:42:29,557 2491 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-01-27 23:42:29,784 2491 INFO ? odoo.service.server: HTTP service (werkzeug) running on Stymmbe.localdomain:8069 
+2026-01-27 23:42:51,419 2491 INFO ? odoo.http: HTTP Configuring static files 
+2026-01-27 23:42:51,440 2491 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-01-27 23:42:51,444 2491 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-01-27 23:42:51,451 2491 INFO odoo odoo.modules.loading: loading 12 modules... 
+2026-01-27 23:42:51,661 2491 WARNING odoo py.warnings: /home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  File "/usr/lib/python3.10/threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 342, in handle
+    BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 374, in handle_one_request
+    self.run_wsgi()
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/server.py", line 482, in app
+    return self.app(e, s)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/middleware/shared_data.py", line 287, in __call__
+    return self.app(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "/home/nghiax/TTDN-16-01-N5/odoo/__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/__init__.py", line 2, in <module>
+    from . import models
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/__init__.py", line 2, in <module>
+    from . import ai_assistant
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py", line 17, in <module>
+    import google.generativeai as genai
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/generativeai/__init__.py", line 47, in <module>
+    from google.generativeai import caching
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/generativeai/caching.py", line 21, in <module>
+    from google.generativeai import protos
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/generativeai/protos.py", line 74, in <module>
+    from google.ai.generativelanguage_v1beta.types import *
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/__init__.py", line 21, in <module>
+    from .services.cache_service import CacheServiceAsyncClient, CacheServiceClient
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/cache_service/__init__.py", line 16, in <module>
+    from .async_client import CacheServiceAsyncClient
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/cache_service/async_client.py", line 32, in <module>
+    from google.api_core import exceptions as core_exceptions
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/api_core/__init__.py", line 40, in <module>
+    check_python_version(package="google.api_core")
+  File "/home/nghiax/.local/lib/python3.10/site-packages/google/api_core/_python_version_support.py", line 275, in check_python_version
+    warnings.warn(message, FutureWarning)
+ 
+2026-01-27 23:42:52,014 2491 WARNING odoo py.warnings: /home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py:17: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  File "/usr/lib/python3.10/threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 342, in handle
+    BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 374, in handle_one_request
+    self.run_wsgi()
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/server.py", line 482, in app
+    return self.app(e, s)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/service/wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "/home/nghiax/.local/lib/python3.10/site-packages/werkzeug/middleware/shared_data.py", line 287, in __call__
+    return self.app(environ, start_response)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "/home/nghiax/TTDN-16-01-N5/odoo/__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/nghiax/TTDN-16-01-N5/odoo/modules/module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/__init__.py", line 2, in <module>
+    from . import models
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/__init__.py", line 2, in <module>
+    from . import ai_assistant
+  File "/home/nghiax/TTDN-16-01-N5/addons/quan_ly_tai_chinh/models/ai_assistant.py", line 17, in <module>
+    import google.generativeai as genai
+ 
+2026-01-27 23:42:52,029 2491 INFO odoo odoo.modules.loading: 12 modules loaded in 0.58s, 0 queries (+0 extra) 
+2026-01-27 23:42:52,055 2491 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-01-27 23:42:52,057 2491 INFO odoo odoo.modules.registry: Registry loaded in 0.636s 
+2026-01-27 23:42:52,058 2491 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-01-27 23:42:52,145 2491 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-01-27 23:43:42,151 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:43:42] "POST /longpolling/poll HTTP/1.1" 200 - 26 0.039 50.692
+2026-01-27 23:44:32,211 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:44:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.021
+2026-01-27 23:45:22,613 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:45:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.034
+2026-01-27 23:46:12,696 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:46:12] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.011
+2026-01-27 23:47:03,058 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:47:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.020
+2026-01-27 23:47:53,151 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:47:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.034
+2026-01-27 23:50:02,025 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:02] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 23:50:52,084 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.017
+2026-01-27 23:50:06,645 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:06] "[32mGET / HTTP/1.1[0m" 303 - 1 0.002 0.012
+2026-01-27 23:50:07,407 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:07] "GET /web HTTP/1.1" 200 - 230 0.152 0.273
+2026-01-27 23:50:07,825 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:07] "GET /web/assets/242-23da8a3/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.017
+2026-01-27 23:50:07,839 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:07] "GET /web/assets/243-23da8a3/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.008 0.024
+2026-01-27 23:50:08,052 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:08] "GET /web/webclient/load_menus/ce8833b8d9e9969955b550bbaa94f67a830b9c7ddb08440bc79672bfc160e669 HTTP/1.1" 200 - 1 0.001 0.006
+2026-01-27 23:50:08,784 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:08] "POST /web/action/load HTTP/1.1" 200 - 16 -78.458 0.037
+2026-01-27 23:50:08,789 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:08] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.071 -78.467
+2026-01-27 23:50:09,266 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:09] "POST /web/dataset/call_kw/nhan_vien/load_views HTTP/1.1" 200 - 109 0.072 0.040
+2026-01-27 23:50:09,641 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.011 0.006
+2026-01-27 23:50:10,008 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.004 0.006
+2026-01-27 23:50:13,373 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:13] "POST /web/action/load HTTP/1.1" 200 - 22 0.044 0.029
+2026-01-27 23:51:32,244 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:32] "POST /web/dataset/call_kw/tai_khoan_ke_toan/load_views HTTP/1.1" 200 - 19 0.018 0.010
+2026-01-27 23:50:14,103 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.006
+2026-01-27 23:51:37,209 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:37] "POST /web/action/load HTTP/1.1" 200 - 19 0.035 0.023
+2026-01-27 23:50:19,140 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:19] "POST /web/dataset/call_kw/so_cai_ke_toan/load_views HTTP/1.1" 200 - 28 0.053 0.026
+2026-01-27 23:50:19,510 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.006
+2026-01-27 23:50:23,946 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:50:23] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.019
+2026-01-27 23:52:17,268 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:52:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.024 50.041
+2026-01-27 23:51:10,144 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:10] "POST /web/action/load HTTP/1.1" 200 - 23 0.020 0.015
+2026-01-27 23:51:10,512 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:10] "POST /web/dataset/call_kw/phieu_thu/load_views HTTP/1.1" 200 - 21 0.018 0.013
+2026-01-27 23:51:10,874 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:10] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.004
+2026-01-27 23:51:14,312 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:14] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.023
+2026-01-27 23:51:35,358 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:35] "POST /web/action/load HTTP/1.1" 200 - 23 0.034 0.024
+2026-01-27 23:51:35,730 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:35] "POST /web/dataset/call_kw/phieu_chi/load_views HTTP/1.1" 200 - 21 0.014 0.010
+2026-01-27 23:51:36,096 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.012 0.004
+2026-01-27 23:51:49,134 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:49] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.026
+2026-01-27 23:51:54,995 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:54] "POST /web/action/load HTTP/1.1" 200 - 23 0.018 0.014
+2026-01-27 23:51:55,381 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:55] "POST /web/dataset/call_kw/hoa_don_ban/load_views HTTP/1.1" 200 - 22 0.027 0.018
+2026-01-27 23:51:55,743 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:51:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.014 0.006
+2026-01-27 23:52:18,678 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:52:18] "POST /web/action/load HTTP/1.1" 200 - 26 0.016 0.013
+2026-01-27 23:52:19,054 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:52:19] "POST /web/dataset/call_kw/hoa_don_mua/load_views HTTP/1.1" 200 - 22 0.013 0.011
+2026-01-27 23:52:19,430 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:52:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.013 0.005
+2026-01-27 23:52:39,515 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:52:39] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.013
+2026-01-27 23:53:29,889 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:53:29] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.015
+2026-01-27 23:54:19,531 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:54:19] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 49.604
+2026-01-27 23:55:09,929 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:55:09] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.019
+2026-01-27 23:55:59,978 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:55:59] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.012
+2026-01-27 23:56:50,384 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:56:50] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.011 50.034
+2026-01-27 23:57:14,887 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:14] "POST /web/action/load HTTP/1.1" 200 - 15 0.031 0.028
+2026-01-27 23:57:15,253 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:15] "POST /web/dataset/call_kw/van_ban_den/load_views HTTP/1.1" 200 - 20 0.013 0.011
+2026-01-27 23:57:15,621 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2026-01-27 23:57:16,528 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:16] "POST /web/dataset/call_kw/van_ban_den/onchange HTTP/1.1" 200 - 3 0.006 0.013
+2026-01-27 23:57:23,502 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:23] "POST /web/action/load HTTP/1.1" 200 - 15 0.010 0.008
+2026-01-27 23:57:23,927 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:23] "POST /web/dataset/call_kw/van_ban_di/load_views HTTP/1.1" 200 - 20 0.047 0.037
+2026-01-27 23:57:24,299 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.010 0.007
+2026-01-27 23:57:25,793 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:25] "POST /web/dataset/call_kw/van_ban_di/onchange HTTP/1.1" 200 - 3 0.005 0.005
+2026-01-27 23:57:40,246 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:40] "POST /web/dataset/call_kw/nhan_vien/name_search HTTP/1.1" 200 - 3 0.006 0.011
+2026-01-27 23:57:40,439 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:40] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.021
+2026-01-27 23:57:41,167 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:57:41] "POST /web/dataset/call_kw/van_ban_di/onchange HTTP/1.1" 200 - 3 0.003 0.017
+2026-01-27 23:58:07,366 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:07] "POST /web/dataset/call_kw/loai_van_ban/name_search HTTP/1.1" 200 - 4 0.005 0.005
+2026-01-27 23:58:11,365 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:11] "POST /web/dataset/call_kw/loai_van_ban/name_search HTTP/1.1" 200 - 2 0.003 0.006
+2026-01-27 23:58:12,491 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:12] "POST /web/dataset/call_kw/loai_van_ban/name_search HTTP/1.1" 200 - 2 0.006 0.009
+2026-01-27 23:59:32,943 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:32] "POST /web/dataset/call_kw/loai_van_ban/name_search HTTP/1.1" 200 - 2 0.002 0.004
+2026-01-27 23:58:18,103 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:18] "POST /web/action/load HTTP/1.1" 200 - 17 0.015 0.013
+2026-01-27 23:58:24,927 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.005
+2026-01-27 23:58:26,794 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:26] "POST /web/dataset/call_kw/loai_van_ban/load_views HTTP/1.1" 200 - 20 0.052 0.028
+2026-01-27 23:58:27,160 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.005
+2026-01-27 23:58:29,222 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:29] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.003 0.005
+2026-01-27 23:58:30,454 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.005
+2026-01-27 23:58:30,849 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:30] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.019
+2026-01-27 23:58:32,153 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:32] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.003 0.006
+2026-01-27 23:58:36,974 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-27 23:58:37,831 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.005 0.009
+2026-01-27 23:58:39,018 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:58:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.004
+2026-01-27 23:59:21,233 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:21] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.031
+2026-01-27 23:59:38,714 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.003 0.007
+2026-01-27 23:59:40,281 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:40] "POST /web/dataset/call_kw/loai_van_ban/onchange HTTP/1.1" 200 - 3 0.005 0.005
+2026-01-27 23:59:48,799 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:48] "POST /web/dataset/call_kw/loai_van_ban/create HTTP/1.1" 200 - 15 0.033 0.014
+2026-01-27 23:59:49,139 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:49] "POST /web/dataset/call_kw/loai_van_ban/read HTTP/1.1" 200 - 2 0.002 0.005
+2026-01-27 23:59:49,981 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.004
+2026-01-27 23:59:51,432 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:51] "POST /web/dataset/call_kw/van_ban_di/onchange HTTP/1.1" 200 - 2 0.003 0.007
+2026-01-27 23:59:52,545 2491 INFO odoo werkzeug: 127.0.0.1 - - [27/Jan/2026 23:59:52] "POST /web/dataset/call_kw/loai_van_ban/name_search HTTP/1.1" 200 - 3 0.007 0.009
+2026-01-28 00:01:18,185 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:01:18] "POST /web/dataset/call_kw/nhan_vien/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-28 00:00:00,498 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:00:00] "POST /web/dataset/call_kw/van_ban_di/onchange HTTP/1.1" 200 - 3 0.003 0.013
+2026-01-28 00:00:05,419 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:00:05] "POST /web/dataset/call_kw/van_ban_di/create HTTP/1.1" 200 - 13 0.023 0.015
+2026-01-28 00:00:05,808 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:00:05] "POST /web/dataset/call_kw/van_ban_di/read HTTP/1.1" 200 - 6 0.012 0.012
+2026-01-28 00:00:07,439 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:00:07] "POST /web/dataset/call_button HTTP/1.1" 200 - 5 0.005 0.008
+2026-01-28 00:00:07,781 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:00:07] "POST /web/dataset/call_kw/van_ban_di/read HTTP/1.1" 200 - 6 0.004 0.007
+2026-01-28 00:00:11,585 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:00:11] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.008
+2026-01-28 00:01:01,946 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:01:01] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.016
+2026-01-28 00:02:38,377 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:02:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 3 0.004 0.019
+2026-01-28 00:01:20,232 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:01:20] "POST /web/dataset/call_kw/van_ban_di/read HTTP/1.1" 200 - 6 0.006 0.009
+2026-01-28 00:01:22,216 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:01:22] "POST /web/dataset/call_button HTTP/1.1" 200 - 3 0.002 0.014
+2026-01-28 00:01:22,554 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:01:22] "POST /web/dataset/call_kw/van_ban_di/read HTTP/1.1" 200 - 6 0.003 0.005
+2026-01-28 00:01:52,020 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:01:52] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.015
+2026-01-28 00:02:42,388 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:02:42] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.019
+2026-01-28 00:03:32,444 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:32] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.006
+2026-01-28 00:03:42,392 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:42] "POST /web/action/load HTTP/1.1" 200 - 14 0.016 0.017
+2026-01-28 00:03:42,762 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:42] "POST /web/dataset/call_kw/asset.dashboard/load_views HTTP/1.1" 200 - 21 0.014 0.008
+2026-01-28 00:03:43,109 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:43] "POST /web/dataset/call_kw/asset.dashboard/onchange HTTP/1.1" 200 - 3 0.004 0.007
+2026-01-28 00:03:43,508 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:43] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 27 0.034 0.017
+2026-01-28 00:03:43,894 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:43] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 17 0.009 0.007
+2026-01-28 00:03:58,984 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:58] "POST /web/action/load HTTP/1.1" 200 - 16 0.026 0.025
+2026-01-28 00:03:59,398 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:59] "POST /web/dataset/call_kw/danh_muc_tai_san/load_views HTTP/1.1" 200 - 36 0.037 0.020
+2026-01-28 00:03:59,762 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:03:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.006
+2026-01-28 00:04:10,441 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:10] "POST /web/action/load HTTP/1.1" 200 - 14 0.012 0.016
+2026-01-28 00:04:10,873 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:10] "POST /web/dataset/call_kw/tai_san/load_views HTTP/1.1" 200 - 44 0.037 0.026
+2026-01-28 00:04:11,234 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:11] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.006
+2026-01-28 00:04:12,425 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:12] "POST /web/dataset/call_kw/tai_san/onchange HTTP/1.1" 200 - 3 0.002 0.015
+2026-01-28 00:04:22,826 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:22] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.016
+2026-01-28 00:04:29,712 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:29] "POST /web/dataset/call_kw/danh_muc_tai_san/name_search HTTP/1.1" 200 - 3 0.003 0.006
+2026-01-28 00:04:32,353 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:04:32] "POST /web/dataset/call_kw/van_ban_di/name_search HTTP/1.1" 200 - 3 0.005 0.008
+2026-01-28 00:05:13,202 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:13] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.023
+2026-01-28 00:05:20,577 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:20] "POST /web/dataset/call_kw/tai_san/onchange HTTP/1.1" 200 - 1 0.001 0.012
+2026-01-28 00:05:38,113 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:38] "GET /web HTTP/1.1" 200 - 12 0.016 0.095
+2026-01-28 00:05:38,512 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:38] "GET /web/assets/242-23da8a3/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.029
+2026-01-28 00:05:38,514 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:38] "GET /web/assets/243-23da8a3/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.002 0.029
+2026-01-28 00:05:38,768 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:38] "GET /web/webclient/load_menus/ce8833b8d9e9969955b550bbaa94f67a830b9c7ddb08440bc79672bfc160e669 HTTP/1.1" 200 - 1 0.000 0.004
+2026-01-28 00:05:39,035 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:39] "POST /web/action/load HTTP/1.1" 200 - 14 0.015 0.013
+2026-01-28 00:05:39,342 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:39] "POST /web/dataset/call_kw/danh_muc_tai_san/load_views HTTP/1.1" 200 - 18 0.021 0.017
+2026-01-28 00:05:39,382 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-28 00:05:39,704 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:39] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.002 0.008
+2026-01-28 00:05:39,782 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:39] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 6 0.024 0.041
+2026-01-28 00:05:41,746 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:41] "POST /web/dataset/call_kw/danh_muc_tai_san/onchange HTTP/1.1" 200 - 3 0.005 0.005
+2026-01-28 00:05:59,079 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:59] "POST /web/dataset/call_kw/danh_muc_tai_san/create HTTP/1.1" 200 - 11 0.012 0.010
+2026-01-28 00:05:59,429 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:05:59] "POST /web/dataset/call_kw/danh_muc_tai_san/read HTTP/1.1" 200 - 3 0.002 0.007
+2026-01-28 00:06:03,547 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:03] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.003 50.011
+2026-01-28 00:06:04,950 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:04] "POST /web/dataset/call_kw/danh_muc_tai_san/name_search HTTP/1.1" 200 - 3 0.006 0.008
+2026-01-28 00:06:27,738 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:27] "POST /web/dataset/call_kw/tai_san/create HTTP/1.1" 200 - 19 0.026 0.034
+2026-01-28 00:06:28,104 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:28] "POST /web/dataset/call_kw/tai_san/read HTTP/1.1" 200 - 19 0.016 0.015
+2026-01-28 00:06:31,811 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:31] "POST /web/action/load HTTP/1.1" 200 - 14 0.015 0.010
+2026-01-28 00:06:32,189 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:32] "POST /web/dataset/call_kw/phan_bo_tai_san/load_views HTTP/1.1" 200 - 19 0.015 0.013
+2026-01-28 00:06:32,558 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:32] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.008 0.008
+2026-01-28 00:06:38,803 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.003 0.006
+2026-01-28 00:06:43,763 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:43] "POST /web/dataset/call_kw/tai_san/read HTTP/1.1" 200 - 13 0.025 0.032
+2026-01-28 00:06:53,914 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:06:53] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.022
+2026-01-28 00:07:29,232 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:07:29] "POST /web/dataset/call_kw/asset.dashboard/onchange HTTP/1.1" 200 - 2 0.004 0.008
+2026-01-28 00:07:29,626 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:07:29] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.024 0.017
+2026-01-28 00:07:30,023 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:07:30] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.011 0.008
+2026-01-28 00:07:44,309 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:07:44] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.033
+2026-01-28 00:08:15,420 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.007
+2026-01-28 00:09:39,128 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-28 00:08:30,173 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:30] "POST /web/dataset/call_kw/asset.dashboard/onchange HTTP/1.1" 200 - 2 0.008 0.021
+2026-01-28 00:09:49,042 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:49] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 78.517 0.006
+2026-01-28 00:08:30,925 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:30] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.017 0.014
+2026-01-28 00:08:33,566 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.002 0.004
+2026-01-28 00:08:34,691 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:34] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.006 50.030
+2026-01-28 00:08:35,113 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:35] "POST /web/dataset/call_kw/tai_san/read HTTP/1.1" 200 - 13 0.008 0.019
+2026-01-28 00:08:37,854 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:37] "POST /web/dataset/call_kw/tai_khoan_ke_toan/get_formview_action HTTP/1.1" 200 - 1 0.001 0.006
+2026-01-28 00:08:38,214 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:38] "POST /web/dataset/call_kw/tai_khoan_ke_toan/load_views HTTP/1.1" 200 - 9 0.008 0.011
+2026-01-28 00:08:38,561 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:38] "POST /web/dataset/call_kw/tai_khoan_ke_toan/read HTTP/1.1" 200 - 3 0.002 0.006
+2026-01-28 00:08:42,407 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:42] "POST /web/dataset/call_kw/tai_san/read HTTP/1.1" 200 - 13 0.014 0.019
+2026-01-28 00:08:50,534 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.003 0.005
+2026-01-28 00:08:56,004 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:56] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.009
+2026-01-28 00:08:58,874 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:08:58] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-28 00:09:17,668 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:17] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 7 0.009 0.008
+2026-01-28 00:09:18,024 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:18] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.005 0.006
+2026-01-28 00:09:18,110 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:18] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.007 0.007
+2026-01-28 00:09:18,474 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:18] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.008 0.011
+2026-01-28 00:09:18,817 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:18] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.004 0.006
+2026-01-28 00:09:18,996 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:18] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.008 0.011
+2026-01-28 00:09:19,166 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:19] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.002 0.004
+2026-01-28 00:09:19,332 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:19] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.005 0.008
+2026-01-28 00:09:19,369 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:19] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.006 0.009
+2026-01-28 00:09:19,497 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:19] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.003 0.005
+2026-01-28 00:09:19,682 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:19] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.002 0.004
+2026-01-28 00:09:19,840 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:19] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.002 0.004
+2026-01-28 00:09:20,118 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:20] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.003 0.004
+2026-01-28 00:09:20,480 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:20] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.007 0.010
+2026-01-28 00:09:25,082 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:25] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.018
+2026-01-28 00:09:30,851 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:09:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.006
+2026-01-28 00:10:15,455 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:15] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.009 50.017
+2026-01-28 00:10:34,028 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:34] "POST /web/dataset/call_kw/asset.dashboard/onchange HTTP/1.1" 200 - 2 0.005 0.010
+2026-01-28 00:10:34,382 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:34] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.008 0.006
+2026-01-28 00:10:34,799 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:34] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.009 0.007
+2026-01-28 00:10:36,285 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.004 0.006
+2026-01-28 00:10:38,104 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:38] "POST /web/dataset/call_kw/phan_bo_tai_san/onchange HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-28 00:10:39,535 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:39] "POST /web/dataset/call_kw/phong_ban/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-28 00:10:40,569 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:40] "POST /web/dataset/call_kw/phong_ban/name_search HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-28 00:10:42,167 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:42] "POST /web/dataset/call_kw/tai_san/name_search HTTP/1.1" 200 - 3 0.001 0.003
+2026-01-28 00:10:48,539 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:48] "POST /web/dataset/call_kw/phong_ban/name_search HTTP/1.1" 200 - 3 0.005 0.009
+2026-01-28 00:10:57,451 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:10:57] "POST /web/dataset/call_kw/phong_ban/name_search HTTP/1.1" 200 - 3 0.006 0.007
+2026-01-28 00:12:24,364 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:24] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.010 50.029
+2026-01-28 00:11:08,747 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:08] "POST /web/dataset/call_kw/phong_ban/name_search HTTP/1.1" 200 - 3 0.003 0.006
+2026-01-28 00:11:14,077 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:14] "POST /web/dataset/call_kw/phan_bo_tai_san/create HTTP/1.1" 200 - 12 0.011 0.010
+2026-01-28 00:11:14,422 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:14] "POST /web/dataset/call_kw/phan_bo_tai_san/read HTTP/1.1" 200 - 4 0.002 0.005
+2026-01-28 00:12:34,333 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:34] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.011 0.011
+2026-01-28 00:11:46,589 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:46] "POST /web/action/load HTTP/1.1" 200 - 14 0.010 0.010
+2026-01-28 00:11:46,990 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:46] "POST /web/dataset/call_kw/lich_su_khau_hao/load_views HTTP/1.1" 200 - 19 0.021 0.018
+2026-01-28 00:11:47,353 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.006
+2026-01-28 00:11:49,939 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:49] "POST /web/action/load HTTP/1.1" 200 - 14 0.012 0.011
+2026-01-28 00:11:50,315 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:50] "POST /web/dataset/call_kw/kiem_ke_tai_san/load_views HTTP/1.1" 200 - 20 0.014 0.013
+2026-01-28 00:11:50,672 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.009 0.007
+2026-01-28 00:11:51,732 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.009
+2026-01-28 00:11:56,216 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:11:56] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.022
+2026-01-28 00:13:19,475 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:19] "POST /web/dataset/call_kw/lich_su_khau_hao/onchange HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-28 00:12:03,077 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.002 0.006
+2026-01-28 00:12:28,509 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:28] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.009
+2026-01-28 00:12:28,873 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:28] "POST /web/dataset/call_kw/thanh_ly_tai_san/load_views HTTP/1.1" 200 - 16 0.010 0.010
+2026-01-28 00:12:29,219 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:29] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.005 0.004
+2026-01-28 00:12:31,244 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:31] "POST /web/dataset/call_kw/thanh_ly_tai_san/onchange HTTP/1.1" 200 - 3 0.010 0.015
+2026-01-28 00:12:36,419 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:36] "POST /web/dataset/call_kw/tai_san/name_search HTTP/1.1" 200 - 3 0.003 0.008
+2026-01-28 00:12:38,103 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:38] "POST /web/dataset/call_kw/thanh_ly_tai_san/onchange HTTP/1.1" 200 - 2 0.001 0.011
+2026-01-28 00:12:46,565 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:46] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.003
+2026-01-28 00:12:55,307 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:55] "POST /web/dataset/call_kw/van_ban_di/name_search HTTP/1.1" 200 - 3 0.003 0.005
+2026-01-28 00:12:57,957 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:57] "POST /web/dataset/call_kw/van_ban_di/name_search HTTP/1.1" 200 - 3 0.005 0.009
+2026-01-28 00:12:59,946 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:12:59] "POST /web/dataset/call_kw/van_ban_di/get_formview_id HTTP/1.1" 200 - 1 0.003 0.007
+2026-01-28 00:13:00,302 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:00] "POST /web/dataset/call_kw/van_ban_di/load_views HTTP/1.1" 200 - 6 0.005 0.008
+2026-01-28 00:13:00,694 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:00] "POST /web/dataset/call_kw/van_ban_di/read HTTP/1.1" 200 - 6 0.012 0.018
+2026-01-28 00:14:19,595 2491 INFO ? werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:19] "GET /web/static/src/legacy/xml/dialog.xml?debug=1769559259276 HTTP/1.1" 200 - - - -
+2026-01-28 00:13:06,291 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:06] "POST /web/dataset/call_kw/nhan_vien/name_search HTTP/1.1" 200 - 3 0.005 0.008
+2026-01-28 00:13:08,302 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:08] "POST /web/dataset/call_kw/thanh_ly_tai_san/create HTTP/1.1" 200 - 15 0.017 0.011
+2026-01-28 00:13:08,647 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:08] "POST /web/dataset/call_kw/thanh_ly_tai_san/read HTTP/1.1" 200 - 5 0.005 0.007
+2026-01-28 00:13:10,231 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:10] "POST /web/dataset/call_button HTTP/1.1" 200 - 45 0.056 0.027
+2026-01-28 00:13:10,587 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:10] "POST /web/dataset/call_kw/so_cai_ke_toan/load_views HTTP/1.1" 200 - 9 0.007 0.010
+2026-01-28 00:13:10,949 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:10] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.003 0.006
+2026-01-28 00:13:11,304 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:11] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.002 0.005
+2026-01-28 00:13:36,938 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:36] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.027
+2026-01-28 00:13:40,605 2491 WARNING odoo odoo.http: Bút toán không cân bằng! Chênh lệch: 38,000,000.00 
+2026-01-28 00:13:40,621 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 4 0.004 0.021
+2026-01-28 00:13:59,562 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:13:59] "POST /web/dataset/call_kw/tai_khoan_ke_toan/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-28 00:14:00,813 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:00] "POST /web/dataset/call_kw/so_cai_ke_toan/onchange HTTP/1.1" 200 - 4 0.005 0.018
+2026-01-28 00:14:12,837 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:12] "POST /web/dataset/call_kw/so_cai_ke_toan/write HTTP/1.1" 200 - 14 0.012 0.019
+2026-01-28 00:14:13,182 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:13] "POST /web/dataset/call_kw/so_cai_ke_toan/read HTTP/1.1" 200 - 5 0.002 0.005
+2026-01-28 00:14:13,537 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:13] "POST /web/dataset/call_kw/chi_tiet_but_toan/read HTTP/1.1" 200 - 4 0.004 0.006
+2026-01-28 00:14:13,896 2491 WARNING odoo odoo.http: Bút toán không cân bằng! Chênh lệch: 38,000,000.00 
+2026-01-28 00:14:13,898 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:13] "POST /web/dataset/call_button HTTP/1.1" 200 - 4 0.004 0.007
+2026-01-28 00:14:21,489 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:21] "POST /web/dataset/call_kw/asset.dashboard/onchange HTTP/1.1" 200 - 2 0.002 0.006
+2026-01-28 00:14:21,851 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:21] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.018 0.013
+2026-01-28 00:14:22,238 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:22] "POST /web/dataset/call_kw/asset.dashboard/get_overview_data HTTP/1.1" 200 - 18 0.010 0.010
+2026-01-28 00:14:27,301 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:14:27] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.015
+2026-01-28 00:15:17,688 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:15:17] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.008 50.028
+2026-01-28 00:16:07,730 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:16:07] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.005 50.003
+2026-01-28 00:16:58,069 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:16:58] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.004 50.006
+2026-01-28 00:17:00,482 2491 INFO odoo werkzeug: 127.0.0.1 - - [28/Jan/2026 00:17:00] "POST /longpolling/poll HTTP/1.1" 200 - 6 0.007 50.012
