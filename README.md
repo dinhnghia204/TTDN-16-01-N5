@@ -39,17 +39,17 @@ Hệ thống ERP tích hợp được xây dựng trên nền tảng Odoo 15, ba
 * **Thu chi & Hóa đơn**: Phiếu thu/chi, hóa đơn bán/mua với liên kết bút toán
 * **Dashboard & Báo cáo**: Biểu đồ real-time, báo cáo tài chính
 * **Tích hợp AI**: Telegram Bot + Gemini AI hỗ trợ truy vấn tự nhiên
-![Dashboard](./images/overview.png)
-![Tình hình mượn trả](./images/borrowing.png)
-![Loại tài sản](./images/loai-tai-san.png)
-![Tài sản cụ thể](./images/tai-san-cu-the.png)
-![Phân bổ tài sản](./images/phan-bo-tai-san.png)
-![Khấu hao tài sản](./images/khau-hao-tai-san.png)
-![Kiểm kê tài sản](./images/kiem-ke-tai-san.png)
-![Luân chuyển tài sản](./images/luan-chuyen-tai-san.png)
-![Thanh lý tài sản](./images/thanh-ly-tai-san.png)
-![Quản lý mượn tài sản](./images/don-muon-tai-san.png)
-![Quản lý cấp phát tài sản](./images/cap-phat-tai-san.png)
+# ![Dashboard](./images/overview.png)
+# ![Tình hình mượn trả](./images/borrowing.png)
+# ![Loại tài sản](./images/loai-tai-san.png)
+# ![Tài sản cụ thể](./images/tai-san-cu-the.png)
+# ![Phân bổ tài sản](./images/phan-bo-tai-san.png)
+# ![Khấu hao tài sản](./images/khau-hao-tai-san.png)
+# ![Kiểm kê tài sản](./images/kiem-ke-tai-san.png)
+# ![Luân chuyển tài sản](./images/luan-chuyen-tai-san.png)
+# ![Thanh lý tài sản](./images/thanh-ly-tai-san.png)
+# ![Quản lý mượn tài sản](./images/don-muon-tai-san.png)
+# ![Quản lý cấp phát tài sản](./images/cap-phat-tai-san.png)
 
 # 2. Cài đặt công cụ, môi trường và các thư viện cần thiết
 

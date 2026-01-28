@@ -59,7 +59,6 @@ class MuonTraTaiSan(models.Model):
             record.ma_don_muon_id.trang_thai = 'da-duyet'
         return record
     
-    @api.model
     def write(self, vals):
         res = super(MuonTraTaiSan, self).write(vals)
         for record in self:

@@ -284,6 +284,27 @@ Nếu đủ thông tin hoặc câu chung chung, trả lời trực tiếp.
         # Phân tích câu hỏi và lấy data tương ứng
         enhanced = prompt
         
+        # Nếu hỏi về sổ cái kế toán / bút toán
+        if any(keyword in prompt.lower() for keyword in ['sổ cái', 'bút toán', 'kế toán', 'định khoản', 'giao dịch']):
+            try:
+                # Lấy 10 bút toán gần nhất
+                but_toans = self.env['so_cai_ke_toan'].search([], limit=10, order='ngay_hach_toan desc')
+                if but_toans:
+                    enhanced += "\n\n--- DỮ LIỆU SỔ CÁI KẾ TOÁN (10 BÚT TOÁN GẦN NHẤT) ---\n"
+                    for bt in but_toans:
+                        loai = dict(bt._fields['loai_chung_tu'].selection).get(bt.loai_chung_tu, 'Khác')
+                        trang_thai = dict(bt._fields['trang_thai'].selection).get(bt.trang_thai, '')
+                        enhanced += f"- {bt.ma_but_toan} ({bt.ngay_hach_toan.strftime('%d/%m/%Y')}): {bt.dien_giai}\n"
+                        enhanced += f"  Loại: {loai} | Trạng thái: {trang_thai}\n"
+                        enhanced += f"  Tổng nợ: {bt.tong_no:,.0f} VNĐ | Tổng có: {bt.tong_co:,.0f} VNĐ\n"
+                        if bt.chi_tiet_but_toan_ids:
+                            for detail in bt.chi_tiet_but_toan_ids[:3]:  # Chỉ lấy 3 dòng đầu
+                                tk_no = detail.tk_no_id.ma_tai_khoan if detail.tk_no_id else ''
+                                tk_co = detail.tk_co_id.ma_tai_khoan if detail.tk_co_id else ''
+                                enhanced += f"    Nợ TK {tk_no}: {detail.so_tien_no:,.0f} | Có TK {tk_co}: {detail.so_tien_co:,.0f}\n"
+            except Exception as e:
+                _logger.warning(f"Cannot fetch but_toan data: {e}")
+        
         # Nếu hỏi về tài sản
         if any(keyword in prompt.lower() for keyword in ['tài sản', 'tscđ', 'laptop', 'máy tính', 'thiết bị']):
             try:

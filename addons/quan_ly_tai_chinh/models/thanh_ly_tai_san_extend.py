@@ -8,12 +8,18 @@ class ThanhLyTaiSanExtend(models.Model):
     
     but_toan_thanh_ly_id = fields.Many2one('so_cai_ke_toan', string='Bút toán thanh lý', 
                                            readonly=True, ondelete='set null')
-    gia_thanh_ly = fields.Float('Giá thanh lý', digits=(16, 2), default=0,
-                                help='Số tiền thu được từ thanh lý')
+    gia_thanh_ly = fields.Float('Giá thanh lý', digits=(16, 2),
+                                help='Số tiền thu được từ thanh lý (mặc định = Giá bán)')
     da_ghi_nhan_ke_toan = fields.Boolean('Đã ghi nhận kế toán', default=False, readonly=True)
     
     # ⭐ Tích hợp với Phiếu thu
     phieu_thu_id = fields.Many2one('phieu_thu', string='Phiếu thu thanh lý', readonly=True, ondelete='set null')
+    
+    @api.onchange('gia_ban')
+    def _onchange_gia_ban(self):
+        """Tự động điền giá thanh lý = giá bán"""
+        if self.gia_ban and not self.gia_thanh_ly:
+            self.gia_thanh_ly = self.gia_ban
     
     def action_ghi_nhan_thanh_ly(self):
         """⭐ MỨC 2: Tự động tạo bút toán thanh lý"""
@@ -106,21 +112,26 @@ class ThanhLyTaiSanExtend(models.Model):
                 'trang_thai': 'nhap'  # Để người dùng kiểm tra trước khi ghi sổ
             })
             
-            # ⭐ Tạo Phiếu thu (nếu có thu tiền)
+            # ⭐ Tạo Phiếu thu (nếu có thu tiền từ thanh lý hoặc bán)
             phieu_thu = None
-            if record.gia_thanh_ly > 0:
-                phieu_thu = self.env['phieu_thu'].create({
-                    'ngay_thu': record.thoi_gian_thanh_ly.date() if record.thoi_gian_thanh_ly else fields.Date.today(),
-                    'nguoi_nop': 'Thu thanh lý tài sản',
-                    'loai_thu': 'tien_mat',
-                    'noi_dung': 'thu_khac',
-                    'tk_no_id': tk_tien_mat.id,
-                    'tk_co_id': tk_thu_nhap_khac.id,
-                    'so_tien': record.gia_thanh_ly,
-                    'dien_giai': f'Thu tiền thanh lý {tai_san.ten_tai_san}',
-                    'but_toan_id': but_toan.id,
-                    'trang_thai': 'da_thu'
-                })
+            gia_thu = record.gia_thanh_ly if record.gia_thanh_ly > 0 else record.gia_ban
+            
+            if gia_thu > 0 and record.hanh_dong == 'ban':
+                try:
+                    phieu_thu = self.env['phieu_thu'].create({
+                        'ngay_thu': record.thoi_gian_thanh_ly.date() if record.thoi_gian_thanh_ly else fields.Date.today(),
+                        'nguoi_nop': 'Thu thanh lý tài sản',
+                        'loai_thu': 'tien_mat',
+                        'noi_dung': 'thu_khac',
+                        'tk_no_id': tk_tien_mat.id,
+                        'tk_co_id': tai_san.tk_nguyen_gia_id.id,  # TK 211 - Nguyên giá TSCĐ
+                        'so_tien': gia_thu,
+                        'dien_giai': f'Thu tiền thanh lý {tai_san.ten_tai_san}',
+                        'but_toan_id': but_toan.id,
+                        'trang_thai': 'da_thu'
+                    })
+                except Exception as e:
+                    raise ValidationError(f"Lỗi khi tạo phiếu thu: {str(e)}")
             
             record.write({
                 'but_toan_thanh_ly_id': but_toan.id,
